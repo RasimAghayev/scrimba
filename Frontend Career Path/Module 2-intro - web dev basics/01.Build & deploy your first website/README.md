@@ -5,7 +5,7 @@
 [x] 05. Aside: The <img> tag - 5:42
 [x] 06. Aside: Nesting - 2:49
 [x] 07. Internet superpowers -> Change the BBC news! - 4:57
-[ ] 08. Aside: Buttons - 1:59
+[x] 08. Aside: Buttons - 1:59
 [ ] 09. Aside: Input tags - 4:58
 [ ] 10. Let's build Google! - 3:50
 [ ] 11. Aside: Anchor tags - 4:33
