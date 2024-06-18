@@ -16,6 +16,6 @@
 [x] 16. Build a Personal Website - 8:42
 [x] 17. Deploy your Personal Website - 3:13
 [x] 18. A quick intro to Web Standards (Updated) - 1:39
-[x] 19. Recap - 1:52
-[x] 20. The basics of Semantic HTML - 6:50
+[x] 19. The basics of Semantic HTML - 6:50
+[x] 20. Recap - 1:52
 [ ] 21. Get to know the module channels! 💜 - 1:34
