@@ -8,7 +8,7 @@
 [x] 08. Aside: Buttons - 1:59
 [x] 09. Aside: Input tags - 4:58
 [x] 10. Let's build Google! - 3:50
-[ ] 11. Aside: Anchor tags - 4:33
+[x] 11. Aside: Anchor tags - 4:33
 [ ] 12. Add an anchor tag to Google.com - 1:35
 [ ] 13. Aside: Proper document structure - 5:42
 [ ] 14. Aside: Lists - 3:54
