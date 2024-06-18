@@ -12,7 +12,7 @@
 [x] 12. Add space between our elements - 1:03
 [x] 13. Aside: centering with margins - 3:23
 [x] 14. Centering our content - 1:19
-[ ] 15. Aside: padding - 5:17
+[x] 15. Aside: padding - 5:17
 [ ] 16. Aside: border and border-radius - 5:06
 [ ] 17. Aside challenge: style Twitter button - 4:59
 [ ] 18. Fix the input field - 4:43
