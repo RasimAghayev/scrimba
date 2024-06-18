@@ -12,7 +12,7 @@
 [x] 12. Add an anchor tag to Google.com - 1:35
 [x] 13. Aside: Proper document structure - 5:42
 [x] 14. Aside: Lists - 3:54
-[ ] 15. Aside: Description lists - 3:22
+[x] 15. Aside: Description lists - 3:22
 [ ] 16. Build a Personal Website - 8:42
 [ ] 17. Deploy your Personal Website - 3:13
 [ ] 18. A quick intro to Web Standards (Updated) - 1:39

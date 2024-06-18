@@ -1,0 +1,31 @@
+html, body {
+    margin: 0;
+    padding-left: 5px;
+}
+
+h2 {
+    font-size: 16px;
+    color: blue;
+    text-transform: uppercase;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dl,
+dd {
+    font-size: 0.9rem;
+}
+
+dd {
+    margin-bottom: 1em;
+}
+
+dl {
+    margin-bottom: 2em
+}
+
+dt::after {
+    content: ": ";
+}
