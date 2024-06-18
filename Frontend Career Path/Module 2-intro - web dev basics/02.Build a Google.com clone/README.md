@@ -14,7 +14,7 @@
 [x] 14. Centering our content - 1:19
 [x] 15. Aside: padding - 5:17
 [x] 16. Aside: border and border-radius - 5:06
-[ ] 17. Aside challenge: style Twitter button - 4:59
+[x] 17. Aside challenge: style Twitter button - 4:59
 [ ] 18. Fix the input field - 4:43
 [ ] 19. Center the button - 2:16
 [ ] 20. Style the button - 4:26
