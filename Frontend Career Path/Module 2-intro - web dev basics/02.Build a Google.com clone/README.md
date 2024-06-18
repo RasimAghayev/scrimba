@@ -4,7 +4,7 @@
 [x] 04. Let's destroy wikipedia - 1:55
 [x] 05. Link to the CSS file - 2:36
 [x] 06. Set the width of the elements - 2:05
-[ ] 07. inline vs block elements - 2:15
+[x] 07. inline vs block elements - 2:15
 [ ] 08. Margin top - 1:13
 [ ] 09. Divs rule the world - 2:02
 [ ] 10. CSS classes - 3:53

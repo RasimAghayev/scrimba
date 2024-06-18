@@ -1,13 +1,14 @@
 /*
-Challenge:
-Select the img tag and set the width 
-of the Google logo to be 300px.
+Challenge: 
+Turn the elements into blocks!
 */
 
 img {
+    display: block;
     width: 300px;
 }
 
 input {
+    display: block;
     width: 400px;
 }
