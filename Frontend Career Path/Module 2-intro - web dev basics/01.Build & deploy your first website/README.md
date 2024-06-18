@@ -10,7 +10,7 @@
 [x] 10. Let's build Google! - 3:50
 [x] 11. Aside: Anchor tags - 4:33
 [x] 12. Add an anchor tag to Google.com - 1:35
-[ ] 13. Aside: Proper document structure - 5:42
+[x] 13. Aside: Proper document structure - 5:42
 [ ] 14. Aside: Lists - 3:54
 [ ] 15. Aside: Description lists - 3:22
 [ ] 16. Build a Personal Website - 8:42
