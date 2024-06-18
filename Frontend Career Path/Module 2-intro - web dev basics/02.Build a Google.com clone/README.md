@@ -7,7 +7,7 @@
 [x] 07. inline vs block elements - 2:15
 [x] 08. Margin top - 1:13
 [x] 09. Divs rule the world - 2:02
-[ ] 10. CSS classes - 3:53
+[x] 10. CSS classes - 3:53
 [ ] 11. Aside: Learn margins via flags - 5:54
 [ ] 12. Add space between our elements - 1:03
 [ ] 13. Aside: centering with margins - 3:23
