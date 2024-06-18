@@ -40,7 +40,7 @@
 
 [x] 21. Why we can't have two block-level buttons - 4:25
 
-[ ] 22. Aside: flexbox - 3:40
+[x] 22. Aside: flexbox - 3:40
 
 [ ] 23. Centering both buttons with flexbox - 2:52
 
