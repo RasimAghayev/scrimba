@@ -17,7 +17,7 @@
 [x] 17. Aside challenge: style Twitter button - 4:59
 [x] 18. Fix the input field - 4:43
 [x] 19. Center the button - 2:16
-[ ] 20. Style the button - 4:26
+[x] 20. Style the button - 4:26
 [ ] 21. Why we can't have two block-level buttons - 4:25
 [ ] 22. Aside: flexbox - 3:40
 [ ] 23. Centering both buttons with flexbox - 2:52
