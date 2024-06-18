@@ -10,7 +10,7 @@
 [x] 10. CSS classes - 3:53
 [x] 11. Aside: Learn margins via flags - 5:54
 [x] 12. Add space between our elements - 1:03
-[ ] 13. Aside: centering with margins - 3:23
+[x] 13. Aside: centering with margins - 3:23
 [ ] 14. Centering our content - 1:19
 [ ] 15. Aside: padding - 5:17
 [ ] 16. Aside: border and border-radius - 5:06
