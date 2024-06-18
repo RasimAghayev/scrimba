@@ -44,4 +44,4 @@
 
 [x] 23. Centering both buttons with flexbox - 2:52
 
-[ ] 24. Google clone recap - 2:04
+[x] 24. Google clone recap - 2:04
