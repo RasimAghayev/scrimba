@@ -7,7 +7,7 @@
 [x] 07. Internet superpowers -> Change the BBC news! - 4:57
 [x] 08. Aside: Buttons - 1:59
 [x] 09. Aside: Input tags - 4:58
-[ ] 10. Let's build Google! - 3:50
+[x] 10. Let's build Google! - 3:50
 [ ] 11. Aside: Anchor tags - 4:33
 [ ] 12. Add an anchor tag to Google.com - 1:35
 [ ] 13. Aside: Proper document structure - 5:42
