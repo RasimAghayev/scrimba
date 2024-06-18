@@ -1,5 +1,5 @@
 [x] 01. Let's learn CSS! - 0:44
-[ ] 02. Write your first lines of CSS! - 4:16
+[x] 02. Write your first lines of CSS! - 4:16
 [ ] 03. Write your first lines of CSS! - Solution - 3:10
 [ ] 04. Let's destroy wikipedia - 1:55
 [ ] 05. Link to the CSS file - 2:36
