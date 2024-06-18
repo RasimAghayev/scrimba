@@ -1,8 +1,8 @@
 [x] 01. Let's learn CSS! - 0:44
 [x] 02. Write your first lines of CSS! - 4:16
 [x] 03. Write your first lines of CSS! - Solution - 3:10
-[ ] 04. Let's destroy wikipedia - 1:55
-[ ] 05. Link to the CSS file - 2:36
+[x] 04. Let's destroy wikipedia - 1:55
+[x] 05. Link to the CSS file - 2:36
 [ ] 06. Set the width of the elements - 2:05
 [ ] 07. inline vs block elements - 2:15
 [ ] 08. Margin top - 1:13
