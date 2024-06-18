@@ -1,5 +1,6 @@
 .main {
     margin-top: 100px;
+    text-align: center;
 }
 
 .logo-img {
@@ -25,9 +26,6 @@
 }
 
 .btn {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 30px;
     background: #dfe1e5;
     border: none;
@@ -37,14 +35,4 @@
     padding-right: 16px;
     border-radius: 4px;
     font-size: 14px;
-    /*
-    Challenge:
-    Style the button according to the provided design.
-    Hint: Use padding, font-size, border-radius, border, and background
-    
-    PS: 
-    The real background is #f8f9fa but it is failing our contrast check. 
-    So here's the background color we will use: #dfe1e5
-    */
-
 }
