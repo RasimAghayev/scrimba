@@ -1,15 +1,24 @@
-.main {
-    margin-top: 100px;
+body {
+    margin: 0;
 }
 
-/* Challenge - part 2: 
-Replace the element selectors with class selectors */
-.logo-img {
-    display: block;
-    width: 300px;
+.red {
+    background: #c71226;
+    height: 100px;
+    margin-bottom: 15px;
 }
 
-.search-input {
-    display: block;
-    width: 400px;
+.blue {
+    background: #0d1b88;
+    height: 100px;
+    /* Challenge: 
+    Create the flag of The Gambia.
+    But only by applying styles to the blue box! */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.green {
+    background: #397327;
+    height: 100px;
 }
