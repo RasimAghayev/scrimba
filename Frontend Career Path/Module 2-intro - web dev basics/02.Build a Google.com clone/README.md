@@ -5,7 +5,7 @@
 [x] 05. Link to the CSS file - 2:36
 [x] 06. Set the width of the elements - 2:05
 [x] 07. inline vs block elements - 2:15
-[ ] 08. Margin top - 1:13
+[x] 08. Margin top - 1:13
 [ ] 09. Divs rule the world - 2:02
 [ ] 10. CSS classes - 3:53
 [ ] 11. Aside: Learn margins via flags - 5:54

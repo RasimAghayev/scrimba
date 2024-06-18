@@ -1,12 +1,14 @@
-/*
-Challenge: 
-Turn the elements into blocks!
-*/
-
 img {
+    /* Challenge: 
+    Add some space (margin) above our image!
+    Do you remember how we added spacing in the 
+    cookie widget example?
+    */
+    margin-top: 100px;
     display: block;
     width: 300px;
 }
+
 
 input {
     display: block;
