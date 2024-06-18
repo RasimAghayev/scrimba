@@ -1,7 +1,7 @@
 [x] 01. Module 2 intro - web dev basics - 2:11
 [x] 02. HTML tags - 3:18
 [x] 03. Write a news article! - 2:06
-[ ] 04. Aside: Proper HTML heading structure - 1:03
+[x] 04. Aside: Proper HTML heading structure - 1:03
 [ ] 05. Aside: The <img> tag - 5:42
 [ ] 06. Aside: Nesting - 2:49
 [ ] 07. Internet superpowers -> Change the BBC news! - 4:57
