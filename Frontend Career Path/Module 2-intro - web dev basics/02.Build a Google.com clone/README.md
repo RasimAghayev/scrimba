@@ -9,7 +9,7 @@
 [x] 09. Divs rule the world - 2:02
 [x] 10. CSS classes - 3:53
 [x] 11. Aside: Learn margins via flags - 5:54
-[ ] 12. Add space between our elements - 1:03
+[x] 12. Add space between our elements - 1:03
 [ ] 13. Aside: centering with margins - 3:23
 [ ] 14. Centering our content - 1:19
 [ ] 15. Aside: padding - 5:17

@@ -1,24 +1,24 @@
-body {
-    margin: 0;
+/*
+Challenge: 
+Add some space between the logo 
+and the search field.
+
+What are the two different ways 
+we can do this with margins?
+
+*/
+
+.main {
+    margin-top: 100px;
 }
 
-.red {
-    background: #c71226;
-    height: 100px;
-    margin-bottom: 15px;
-}
-
-.blue {
-    background: #0d1b88;
-    height: 100px;
-    /* Challenge: 
-    Create the flag of The Gambia.
-    But only by applying styles to the blue box! */
-    margin-top: 20px;
+.logo-img {
+    display: block;
+    width: 300px;
     margin-bottom: 20px;
 }
 
-.green {
-    background: #397327;
-    height: 100px;
+.search-input {
+    display: block;
+    width: 400px;
 }
