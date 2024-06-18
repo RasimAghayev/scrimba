@@ -4,7 +4,7 @@
 [x] 04. Aside: Proper HTML heading structure - 1:03
 [x] 05. Aside: The <img> tag - 5:42
 [x] 06. Aside: Nesting - 2:49
-[ ] 07. Internet superpowers -> Change the BBC news! - 4:57
+[x] 07. Internet superpowers -> Change the BBC news! - 4:57
 [ ] 08. Aside: Buttons - 1:59
 [ ] 09. Aside: Input tags - 4:58
 [ ] 10. Let's build Google! - 3:50
