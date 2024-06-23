@@ -10,7 +10,7 @@
 [x] 10. Replace the jpg with a webp - 2:31
 [x] 11. Aside: Replaced elements - 2:08
 [x] 12. Choose a color palette from an image - 2:51
-[ ] 13. Add the terms & conditions section - 3:55
+[x] 13. Add the terms & conditions section - 3:55
 [ ] 14. Aside: text shadow - 5:57
 [ ] 15. Improving the readability with text shadows - 1:57
 [ ] 16. HTML lang attribute - 1:38
