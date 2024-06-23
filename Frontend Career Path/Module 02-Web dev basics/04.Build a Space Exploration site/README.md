@@ -8,8 +8,8 @@
 [x] 08. Add an underline using a span - 1:46
 [x] 09. Use an ID for the logo - 4:22
 [x] 10. Replace the jpg with a webp - 2:31
-[ ] 11. Aside: Replaced elements - 2:08
-[ ] 12. Choose a color palette from an image - 2:51
+[x] 11. Aside: Replaced elements - 2:08
+[x] 12. Choose a color palette from an image - 2:51
 [ ] 13. Add the terms & conditions section - 3:55
 [ ] 14. Aside: text shadow - 5:57
 [ ] 15. Improving the readability with text shadows - 1:57
