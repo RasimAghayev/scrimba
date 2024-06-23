@@ -1,6 +1,6 @@
 [x] 01. Building your digital business card - 0:29
-[ ] 02. Fix the image path - 2:53
-[ ] 03. More on Relative Paths - 6:57
+[X] 02. Fix the image path - 2:53
+[x] 03. More on Relative Paths - 6:57
 [ ] 04. Add alt attribute - 4:24
 [ ] 05. Make image smaller - 1:13
 [ ] 06. Add a border and padding - 3:46
