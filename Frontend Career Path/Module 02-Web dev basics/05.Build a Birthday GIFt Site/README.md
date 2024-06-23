@@ -22,5 +22,5 @@
 [x] 22. Intro to audio and video part 2 - 3:07
 [x] 23. Intro to audio and video part 3 (updated) - 4:22
 [x] 24. HTML tables - 9:02
-[ ] 25. Personalize, deploy and share to Discord - 1:36
-[ ] 26. GIFt site recap - 1:26
+[x] 25. Personalize, deploy and share to Discord - 1:36
+[x] 26. GIFt site recap - 1:26
