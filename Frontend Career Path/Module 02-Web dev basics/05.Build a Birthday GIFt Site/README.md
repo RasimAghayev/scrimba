@@ -5,7 +5,7 @@
 [x] 05. We have a problem that flexbox can fix - 2:32
 [x] 06. Aside: align-items - 5:59
 [x] 07. Aside: flex-direction - 4:25
-[ ] 08. Turn the header into a flexbox - 1:41
+[x] 08. Turn the header into a flexbox - 1:41
 [ ] 09. Fix date and age design - 4:06
 [ ] 10. Create the first gift - 5:17
 [ ] 11. Replace the img with a div - 4:15
