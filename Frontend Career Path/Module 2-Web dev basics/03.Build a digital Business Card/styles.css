@@ -1,9 +1,5 @@
 body {
     margin: 20px;
-    /*
-    Challenge:
-    Set the font to Verdana.
-    */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -25,31 +21,4 @@ body {
 
 .border-blue {
     border: 1px dotted blue;
-}
-
-.red-circle {
-    height: 150px;
-    width: 150px;
-    border-radius: 100%;
-    background: #BC002D;
-
-    /* 
-    Challenge:
-    Translate this into using the margin shorthand. 
-    */
-
-    /* margin: 40px 0 0 100px; */
-    /* margin-top: 40px;
-    margin-right: 0;
-    margin-bottom: 0;
-    margin-left: 100px; */
-
-    margin: 40px auto;
-    /* Vertical */
-    /* margin-top: 40px;
-    margin-bottom: 40px; */
-
-    /* Horizontal */
-    /* margin-right: auto;
-    margin-left: auto; */
 }

@@ -16,6 +16,6 @@
 [x] 16. Aside: margin/padding shorthand - 3:59
 [x] 17. Use the margin&padding shorthands - 1:13
 [x] 18. Make it your own! - 3:01
-[ ] 19. Deploy your Digital Business Card - 4:46
-[ ] 20. Git & GitHub Intro - 5:48
-[ ] 21. Business Card recap - 2:09
+[x] 19. Deploy your Digital Business Card - 4:46
+[x] 20. Git & GitHub Intro - 5:48
+[x] 21. Business Card recap - 2:09
