@@ -7,7 +7,7 @@
 [x] 07. Aside: flexbox child containers - 3:37
 [x] 08. Flex item containers - 1:37
 [x] 09. Add a utility class - 3:09
-[ ] 10. Justify the items - 2:06
+[x] 10. Justify the items - 2:06
 [ ] 11. Center the card - 1:56
 [ ] 12. Aside: inheritance (Updated) - 5:23
 [ ] 13. Center the text via inheritance - 2:57
