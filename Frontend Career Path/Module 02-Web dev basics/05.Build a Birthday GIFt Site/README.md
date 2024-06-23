@@ -20,7 +20,7 @@
 [x] 20. The em and strong tags - 4:05
 [x] 21. Intro to audio and video part 1 - 4:43
 [x] 22. Intro to audio and video part 2 - 3:07
-[ ] 23. Intro to audio and video part 3 (updated) - 4:22
-[ ] 24. HTML tables - 9:02
+[x] 23. Intro to audio and video part 3 (updated) - 4:22
+[x] 24. HTML tables - 9:02
 [ ] 25. Personalize, deploy and share to Discord - 1:36
 [ ] 26. GIFt site recap - 1:26
