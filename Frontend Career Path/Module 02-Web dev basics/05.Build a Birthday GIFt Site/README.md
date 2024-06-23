@@ -11,7 +11,7 @@
 [x] 11. Replace the img with a div - 4:15
 [x] 12. Aside: make elements change on hover (Updated) - 4:06
 [x] 13. Add the hover effect - 2:05
-[ ] 14. Create the next GIFt - 4:19
+[x] 14. Create the next GIFt - 4:19
 [ ] 15. Create two more GIFts - 2:33
 [ ] 16. Create the final GIFt - 3:20
 [ ] 17. ARIA roles and attributes for background images - 4:41

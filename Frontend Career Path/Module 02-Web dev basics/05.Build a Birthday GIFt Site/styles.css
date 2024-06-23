@@ -61,6 +61,13 @@ h2, h4 {
     background-size: cover;
 }
 
-.gift-img:hover {
+/* .gift-img:hover {
     background-image: url("images/happy.gif");
+} */
+#gift-img-happy:hover {
+    background-image: url("images/happy.gif");
+}
+
+#gift-img-hot:hover {
+    background-image: url("images/hot.gif");
 }
