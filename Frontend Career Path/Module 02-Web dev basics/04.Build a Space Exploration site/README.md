@@ -1,5 +1,5 @@
-[ ] 01. Let's go to space! - 0:34
-[ ] 02. Add a background image from unsplash - 3:57
+[x] 01. Let's go to space! - 0:34
+[x] 02. Add a background image from unsplash - 3:57
 [ ] 03. Center elements and style button - 3:15
 [ ] 04. Aside: Google Fonts - 4:18
 [ ] 05. Aside: @font-face - 2:03
