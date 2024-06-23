@@ -1,5 +1,5 @@
-[ ] 01. Let's build a Birthday GIFt site! - 1:07
-[ ] 02. Add basic header styling - 3:31
+[x] 01. Let's build a Birthday GIFt site! - 1:07
+[x] 02. Add basic header styling - 3:31
 [ ] 03. Set the colors - 1:22
 [ ] 04. Add shadow on text - 3:17
 [ ] 05. We have a problem that flexbox can fix - 2:32
