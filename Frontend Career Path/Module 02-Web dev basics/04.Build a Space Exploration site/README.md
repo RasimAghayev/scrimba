@@ -6,7 +6,7 @@
 [x] 06. Aside: @font-face performance and usability - 1:42
 [x] 07. Aside: spans - 3:56
 [x] 08. Add an underline using a span - 1:46
-[ ] 09. Use an ID for the logo - 4:22
+[x] 09. Use an ID for the logo - 4:22
 [ ] 10. Replace the jpg with a webp - 2:31
 [ ] 11. Aside: Replaced elements - 2:08
 [ ] 12. Choose a color palette from an image - 2:51

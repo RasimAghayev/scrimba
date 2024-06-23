@@ -50,3 +50,7 @@ body {
 .underline {
     border-bottom: 4px solid white;
 }
+
+#main-logo {
+    width: 100px;
+}
