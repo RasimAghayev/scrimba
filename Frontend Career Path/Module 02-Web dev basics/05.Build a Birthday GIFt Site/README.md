@@ -15,7 +15,7 @@
 [x] 15. Create two more GIFts - 2:33
 [x] 16. Create the final GIFt - 3:20
 [x] 17. ARIA roles and attributes for background images - 4:41
-[ ] 18. Add the footer - 3:37
+[x] 18. Add the footer - 3:37
 [ ] 19. Add a background gradient - 3:25
 [ ] 20. The em and strong tags - 4:05
 [ ] 21. Intro to audio and video part 1 - 4:43
