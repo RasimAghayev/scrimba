@@ -13,7 +13,7 @@
 [x] 13. Center the text via inheritance - 2:57
 [x] 14. Add colors - 3:21
 [x] 15. Web-safe fonts - 5:05
-[ ] 16. Aside: margin/padding shorthand - 3:59
+[x] 16. Aside: margin/padding shorthand - 3:59
 [ ] 17. Use the margin&padding shorthands - 1:13
 [ ] 18. Make it your own! - 3:01
 [ ] 19. Deploy your Digital Business Card - 4:46
