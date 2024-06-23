@@ -14,4 +14,4 @@
 [X] 14. Aside: text shadow - 5:57
 [X] 15. Improving the readability with text shadows - 1:57
 [X] 16. HTML lang attribute - 1:38
-[ ] 17. Space Exploration recap - 1:41
+[X] 17. Space Exploration recap - 1:41
