@@ -71,3 +71,11 @@ h2, h4 {
 #gift-img-hot:hover {
     background-image: url("images/hot.gif");
 }
+
+#gift-img-genius:hover {
+    background-image: url("images/genius.gif");
+}
+
+#gift-img-badass:hover {
+    background-image: url("images/badass.gif");
+}
