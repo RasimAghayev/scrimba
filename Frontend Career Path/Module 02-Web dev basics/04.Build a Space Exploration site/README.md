@@ -11,7 +11,7 @@
 [x] 11. Aside: Replaced elements - 2:08
 [x] 12. Choose a color palette from an image - 2:51
 [x] 13. Add the terms & conditions section - 3:55
-[ ] 14. Aside: text shadow - 5:57
-[ ] 15. Improving the readability with text shadows - 1:57
+[X] 14. Aside: text shadow - 5:57
+[X] 15. Improving the readability with text shadows - 1:57
 [ ] 16. HTML lang attribute - 1:38
 [ ] 17. Space Exploration recap - 1:41
