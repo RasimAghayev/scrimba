@@ -1,7 +1,13 @@
+/*
+Challenge:
+Change the site's background into a gradient that goes
+from blue at the top to pink at the bottom.
+*/
+
 body {
     text-align: center;
     font-family: 'Happy Monkey', cursive;
-    background: #a2d2ff;
+    background: linear-gradient(#a2d2ff, );
     color: #ffffff;
 }
 
