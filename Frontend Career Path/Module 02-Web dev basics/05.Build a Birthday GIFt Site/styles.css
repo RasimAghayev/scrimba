@@ -39,11 +39,20 @@ h2, h4 {
     border-radius: 5px;
 }
 
-/*
-Challenge:
-First, wrap the HTML elements in a <div> with an 
-id called "header".
+.gift-section {
+    margin-top: 50px;
+}
 
-Then, select the "header" and use flexbox to achieve
-the layout you've been provided in the design slide.
-*/
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img {
+    width: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+}

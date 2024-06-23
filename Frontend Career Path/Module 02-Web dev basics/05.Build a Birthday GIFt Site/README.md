@@ -7,7 +7,7 @@
 [x] 07. Aside: flex-direction - 4:25
 [x] 08. Turn the header into a flexbox - 1:41
 [x] 09. Fix date and age design - 4:06
-[ ] 10. Create the first gift - 5:17
+[x] 10. Create the first gift - 5:17
 [ ] 11. Replace the img with a div - 4:15
 [ ] 12. Aside: make elements change on hover (Updated) - 4:06
 [ ] 13. Add the hover effect - 2:05
