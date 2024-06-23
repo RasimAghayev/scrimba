@@ -8,7 +8,7 @@
 [x] 08. Turn the header into a flexbox - 1:41
 [x] 09. Fix date and age design - 4:06
 [x] 10. Create the first gift - 5:17
-[ ] 11. Replace the img with a div - 4:15
+[x] 11. Replace the img with a div - 4:15
 [ ] 12. Aside: make elements change on hover (Updated) - 4:06
 [ ] 13. Add the hover effect - 2:05
 [ ] 14. Create the next GIFt - 4:19
