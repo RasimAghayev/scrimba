@@ -13,16 +13,7 @@ h1, h2, h3, h4, p {
     width: 150px;
     border-radius: 50%;
     border: 6px solid #EFB0C9;
-}
-
-h2, h4 {
-    background: #EFB0C9;
-}
-
-#header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin-bottom: 10px;
 }
 
 #bday-age {
@@ -39,6 +30,12 @@ h2, h4 {
     border-radius: 5px;
 }
 
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .gift-section {
     margin-top: 50px;
 }
@@ -51,8 +48,12 @@ h2, h4 {
     margin-top: 0;
 }
 
+#gift-img-cheers {
+    height: 200px;
+}
+
 .gift-img {
-    margin: 0 auto;
+    margin: 20px auto;
     width: 400px;
     height: 400px;
     border: 6px solid white;
@@ -61,9 +62,6 @@ h2, h4 {
     background-size: cover;
 }
 
-/* .gift-img:hover {
-    background-image: url("images/happy.gif");
-} */
 #gift-img-happy:hover {
     background-image: url("images/happy.gif");
 }
@@ -78,4 +76,23 @@ h2, h4 {
 
 #gift-img-badass:hover {
     background-image: url("images/badass.gif");
+}
+
+/*
+Challenge:
+Create the "cheers" GIFt section.
+
+Note: this GIFt should have a height of 200px. 
+Select the #gift-img-cheers id and override 
+the height that the element got from the 
+.gift-img class.
+
+Text: 
+This one's for you, my friend 🥂
+*/
+
+
+
+#gift-img-cheers:hover {
+    background-image: url("images/cheers.gif");
 }
