@@ -11,7 +11,8 @@ Challenge:
 
 body {
     color: white;
-    background-image: url("images/universe.jpg");
+    /* background-image: url("images/universe.jpg"); */
+    background-image: url("https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTI0Ymppc2pjMmMyMXVmczV0c3licWJhc3RwbWVuNWdpb2Rhb3BiNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iicDrNGWxHmDrIni6j/giphy.gif");
     background-size: cover;
     text-align: center;
     font-family: 'Orbitron', sans-serif;
