@@ -3,8 +3,8 @@
 [x] 03. Center elements and style button - 3:15
 [x] 04. Aside: Google Fonts - 4:18
 [x] 05. Aside: @font-face - 2:03
-[ ] 06. Aside: @font-face performance and usability - 1:42
-[ ] 07. Aside: spans - 3:56
+[x] 06. Aside: @font-face performance and usability - 1:42
+[x] 07. Aside: spans - 3:56
 [ ] 08. Add an underline using a span - 1:46
 [ ] 09. Use an ID for the logo - 4:22
 [ ] 10. Replace the jpg with a webp - 2:31
