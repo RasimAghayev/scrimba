@@ -12,7 +12,7 @@
 [x] 12. Aside: inheritance (Updated) - 5:23
 [x] 13. Center the text via inheritance - 2:57
 [x] 14. Add colors - 3:21
-[ ] 15. Web-safe fonts - 5:05
+[x] 15. Web-safe fonts - 5:05
 [ ] 16. Aside: margin/padding shorthand - 3:59
 [ ] 17. Use the margin&padding shorthands - 1:13
 [ ] 18. Make it your own! - 3:01

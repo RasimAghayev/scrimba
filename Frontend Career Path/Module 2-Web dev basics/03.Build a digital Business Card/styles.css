@@ -1,5 +1,10 @@
 body {
     margin: 20px;
+    /*
+    Challenge:
+    Set the font to Verdana.
+    */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .avatar {
@@ -14,14 +19,6 @@ body {
     display: flex;
     justify-content: space-around;
     text-align: center;
-
-    /* 
-    Challenge:
-    Add colors to the card according to the design.
-    black - #2b2839 (the text color)
-    blue - #ddebf8
-    purple - #d8cefe
-    */
     background: #ddebf8;
     color: #2b2839;
     border-bottom: 6px solid #d8cefe;
