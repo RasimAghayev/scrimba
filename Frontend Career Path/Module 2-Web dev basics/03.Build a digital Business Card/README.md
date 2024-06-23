@@ -9,8 +9,8 @@
 [x] 09. Add a utility class - 3:09
 [x] 10. Justify the items - 2:06
 [x] 11. Center the card - 1:56
-[ ] 12. Aside: inheritance (Updated) - 5:23
-[ ] 13. Center the text via inheritance - 2:57
+[x] 12. Aside: inheritance (Updated) - 5:23
+[x] 13. Center the text via inheritance - 2:57
 [ ] 14. Add colors - 3:21
 [ ] 15. Web-safe fonts - 5:05
 [ ] 16. Aside: margin/padding shorthand - 3:59
