@@ -18,7 +18,7 @@
 [x] 18. Add the footer - 3:37
 [x] 19. Add a background gradient - 3:25
 [x] 20. The em and strong tags - 4:05
-[ ] 21. Intro to audio and video part 1 - 4:43
+[x] 21. Intro to audio and video part 1 - 4:43
 [ ] 22. Intro to audio and video part 2 - 3:07
 [ ] 23. Intro to audio and video part 3 (updated) - 4:22
 [ ] 24. HTML tables - 9:02
