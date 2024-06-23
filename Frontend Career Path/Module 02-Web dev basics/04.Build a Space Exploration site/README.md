@@ -13,5 +13,5 @@
 [x] 13. Add the terms & conditions section - 3:55
 [X] 14. Aside: text shadow - 5:57
 [X] 15. Improving the readability with text shadows - 1:57
-[ ] 16. HTML lang attribute - 1:38
+[X] 16. HTML lang attribute - 1:38
 [ ] 17. Space Exploration recap - 1:41
