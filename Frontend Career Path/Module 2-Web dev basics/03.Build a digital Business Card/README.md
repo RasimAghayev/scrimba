@@ -15,7 +15,7 @@
 [x] 15. Web-safe fonts - 5:05
 [x] 16. Aside: margin/padding shorthand - 3:59
 [x] 17. Use the margin&padding shorthands - 1:13
-[ ] 18. Make it your own! - 3:01
+[x] 18. Make it your own! - 3:01
 [ ] 19. Deploy your Digital Business Card - 4:46
 [ ] 20. Git & GitHub Intro - 5:48
 [ ] 21. Business Card recap - 2:09
