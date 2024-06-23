@@ -1,8 +1,8 @@
 [x] 01. Building your digital business card - 0:29
 [X] 02. Fix the image path - 2:53
 [x] 03. More on Relative Paths - 6:57
-[ ] 04. Add alt attribute - 4:24
-[ ] 05. Make image smaller - 1:13
+[x] 04. Add alt attribute - 4:24
+[x] 05. Make image smaller - 1:13
 [ ] 06. Add a border and padding - 3:46
 [ ] 07. Aside: flexbox child containers - 3:37
 [ ] 08. Flex item containers - 1:37
