@@ -4,6 +4,10 @@ Challenge:
 2. Style the button according to the design.
    Use a class to select the button.
 */
+@font-face {
+    src: url("Corleone.ttf");
+    font-family: Corleone;
+}
 
 body {
     color: white;
@@ -18,4 +22,8 @@ body {
     background: white;
     border: none;
     font-family: 'Orbitron', sans-serif;
+}
+
+h1 {
+    font-family: Corleone;
 }

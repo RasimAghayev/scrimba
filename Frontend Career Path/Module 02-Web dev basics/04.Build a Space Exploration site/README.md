@@ -2,7 +2,7 @@
 [x] 02. Add a background image from unsplash - 3:57
 [x] 03. Center elements and style button - 3:15
 [x] 04. Aside: Google Fonts - 4:18
-[ ] 05. Aside: @font-face - 2:03
+[x] 05. Aside: @font-face - 2:03
 [ ] 06. Aside: @font-face performance and usability - 1:42
 [ ] 07. Aside: spans - 3:56
 [ ] 08. Add an underline using a span - 1:46
