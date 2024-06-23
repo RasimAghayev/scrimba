@@ -5,7 +5,7 @@
 [x] 05. Make image smaller - 1:13
 [x] 06. Add a border and padding - 3:46
 [x] 07. Aside: flexbox child containers - 3:37
-[ ] 08. Flex item containers - 1:37
+[x] 08. Flex item containers - 1:37
 [ ] 09. Add a utility class - 3:09
 [ ] 10. Justify the items - 2:06
 [ ] 11. Center the card - 1:56
