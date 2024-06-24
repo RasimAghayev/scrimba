@@ -10,7 +10,7 @@ Build a passenger counter app - 33 lessons - 1 hour 25 min
 [x] 07. Reassigning and incrementing - 3:46
 [x] 08. Adding a button - 1:31
 [x] 09. The onclick event listener - 3:23
-[ ] 10. Using functions to write less code - 3:33
+[x] 10. Using functions to write less code - 3:33
 [ ] 11. Write your first function - 0:43
 [ ] 12. Write a function that logs the sum - 2:46
 [ ] 13. Write a function that increments - 1:54
