@@ -5,7 +5,7 @@ Build a passenger counter app - 33 lessons - 1 hour 25 min
 [x] 02. Share your plan in #today-i-will! - 0:35
 [x] 03. Let's build a passenger counter app! - 0:59
 [x] 04. Setting up our JavaScript file - 2:59
-[ ] 05. Write your first JavaScript variable - 4:52
+[x] 05. Write your first JavaScript variable - 4:52
 [ ] 06. Basic mathematical operations - 3:35
 [ ] 07. Reassigning and incrementing - 3:46
 [ ] 08. Adding a button - 1:31
