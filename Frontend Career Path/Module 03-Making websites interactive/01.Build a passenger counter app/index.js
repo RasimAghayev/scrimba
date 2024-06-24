@@ -20,9 +20,9 @@
 // bonusPoints = bonusPoints + 45;
 // console.log(bonusPoints);
 
-function increment() {
-  console.log("The button was clicked");
-}
+// function increment() {
+//   console.log("The button was clicked");
+// }
 
 // function countdown() {
 //     console.log(5)
@@ -43,3 +43,9 @@ function increment() {
 // // Get ready for a new race 🏎 🏎 🏎
 
 // countdown()
+
+// function myLogger() {
+//     console.log(42)
+// }
+
+// myLogger()
