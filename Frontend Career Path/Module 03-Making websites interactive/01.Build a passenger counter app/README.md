@@ -8,7 +8,7 @@ Build a passenger counter app - 33 lessons - 1 hour 25 min
 [x] 05. Write your first JavaScript variable - 4:52
 [x] 06. Basic mathematical operations - 3:35
 [x] 07. Reassigning and incrementing - 3:46
-[ ] 08. Adding a button - 1:31
+[x] 08. Adding a button - 1:31
 [ ] 09. The onclick event listener - 3:23
 [ ] 10. Using functions to write less code - 3:33
 [ ] 11. Write your first function - 0:43
