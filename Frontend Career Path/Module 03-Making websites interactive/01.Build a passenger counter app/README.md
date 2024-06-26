@@ -29,7 +29,7 @@ Build a passenger counter app - 33 lessons - 1 hour 25 min
 [x] 26. Use plus equal for count - 0:25
 [x] 27. Create the save feature - 4:36
 [x] 28. Debugging online - 3:49
-[ ] 29. Set the count to 0 - 3:41
+[x] 29. Set the count to 0 - 3:41
 [ ] 30. Personalize and Download Your App - 4:37
 [ ] 31. Deploy with Netlify - 4:02
 [ ] 32. Congrats & recap - 3:14
