@@ -63,17 +63,27 @@
 // console.log(totalTime);
 
 // logLapTime();
-let lapsCompleted = 0;
+// let lapsCompleted = 0;
 
-// Create a function that increments the lapsCompleted variable with one
-// Run it three times
+// // Create a function that increments the lapsCompleted variable with one
+// // Run it three times
 
-function incrementLap() {
-  lapsCompleted = lapsCompleted + 1;
+// function incrementLap() {
+//   lapsCompleted = lapsCompleted + 1;
+// }
+
+// incrementLap();
+// incrementLap();
+// incrementLap();
+
+// console.log(lapsCompleted);
+// document.getElementById("count").innerText = 5
+
+// change the count-el in the HTML to reflect the new count
+
+let count = 0;
+
+function increment() {
+  count = count + 1;
+  console.log(count);
 }
-
-incrementLap();
-incrementLap();
-incrementLap();
-
-console.log(lapsCompleted);

@@ -14,7 +14,7 @@ Build a passenger counter app - 33 lessons - 1 hour 25 min
 [x] 11. Write your first function - 0:43
 [x] 12. Write a function that logs the sum - 2:46
 [x] 13. Write a function that increments - 1:54
-[ ] 14. Increment on clicks - 2:08
+[x] 14. Increment on clicks - 2:08
 [ ] 15. Display the count - 5:13
 [ ] 16. The Document Object Model - 1:51
 [ ] 17. Display the count with innerText - 0:39
