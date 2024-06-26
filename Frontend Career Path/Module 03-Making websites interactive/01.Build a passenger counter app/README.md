@@ -21,7 +21,7 @@ Build a passenger counter app - 33 lessons - 1 hour 25 min
 [x] 18. Create the save button - 2:05
 [x] 19. What is a string? - 1:33
 [x] 20. Write your first string variable - 3:39
-[ ] 21. Log a greeting to the console - 1:16
+[x] 21. Log a greeting to the console - 1:16
 [ ] 22. Strings vs. Numbers - 2:43
 [ ] 23. Escape! - 3:11
 [ ] 24. Render a welcome message - 2:00
