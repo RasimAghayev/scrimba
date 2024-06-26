@@ -27,7 +27,7 @@ Build a passenger counter app - 33 lessons - 1 hour 25 min
 [x] 24. Render a welcome message - 2:00
 [x] 25. Improve the message with string concatenation - 2:15
 [x] 26. Use plus equal for count - 0:25
-[ ] 27. Create the save feature - 4:36
+[x] 27. Create the save feature - 4:36
 [ ] 28. Debugging online - 3:49
 [ ] 29. Set the count to 0 - 3:41
 [ ] 30. Personalize and Download Your App - 4:37
