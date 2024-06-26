@@ -17,8 +17,8 @@ Build a passenger counter app - 33 lessons - 1 hour 25 min
 [x] 14. Increment on clicks - 2:08
 [x] 15. Display the count - 5:13
 [x] 16. The Document Object Model - 1:51
-[ ] 17. Display the count with innerText - 0:39
-[ ] 18. Create the save button - 2:05
+[x] 17. Display the count with innerText - 0:39
+[x] 18. Create the save button - 2:05
 [ ] 19. What is a string? - 1:33
 [ ] 20. Write your first string variable - 3:39
 [ ] 21. Log a greeting to the console - 1:16
