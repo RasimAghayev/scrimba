@@ -25,7 +25,7 @@ Build a passenger counter app - 33 lessons - 1 hour 25 min
 [x] 22. Strings vs. Numbers - 2:43
 [x] 23. Escape! - 3:11
 [x] 24. Render a welcome message - 2:00
-[ ] 25. Improve the message with string concatenation - 2:15
+[x] 25. Improve the message with string concatenation - 2:15
 [ ] 26. Use plus equal for count - 0:25
 [ ] 27. Create the save feature - 4:36
 [ ] 28. Debugging online - 3:49
