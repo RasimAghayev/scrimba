@@ -9,7 +9,7 @@ Build a Blackjack game - 55 lessons - 2 hours 45 min
 [x] 06. The if...else statement for our game - 1:59
 [x] 07. Aside: Booleans - 5:00
 [x] 08. Add the hasBlackJack variable - 2:03
-[ ] 09. Add the isAlive variable - 1:44
+[x] 09. Add the isAlive variable - 1:44
 [ ] 10. Let's practice boolean conditions - 3:25
 [ ] 11. Add the message variable - 3:21
 [ ] 12. Link to stylesheet - 2:32
