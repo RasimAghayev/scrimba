@@ -16,7 +16,7 @@ Build a Blackjack game - 55 lessons - 2 hours 45 min
 [x] 13. Add basic styling - 4:18
 [x] 14. Make the start button work - 5:49
 [x] 15. Display the message - 2:32
-[ ] 16. Display the sum - 5:43
+[x] 16. Display the sum - 5:43
 [ ] 17. Display the cards - 1:53
 [ ] 18. New card button - 3:39
 [ ] 19. Add to the sum when newCard is clicked - 3:16
