@@ -6,7 +6,7 @@ JavaScript challenges - part 1 - 10 lessons - 26 min
 [x] 04. Strings and numbers - 1:34
 [x] 05. Rendering an error message - 3:15
 [x] 06. Calculator challenge - 5:30
-[ ] 07. Arithmetic Operator Precedence - 4:38
+[x] 07. Arithmetic Operator Precedence - 4:38
 [ ] 08. Figma tutorial - 1:04
 [ ] 09. Solo Project (PRO) - Basketball Scoreboard - 4:21
 [ ] 10. Build exclusive Solo Projects - 1:32
