@@ -1,7 +1,7 @@
 JavaScript challenges - part 1 - 10 lessons - 26 min
 
 [x] 01. Variables practice - 1:52
-[ ] 02. Concatenate two strings in a function - 0:58
+[x] 02. Concatenate two strings in a function - 0:58
 [ ] 03. Incrementing and decrementing - 2:11
 [ ] 04. Strings and numbers - 1:34
 [ ] 05. Rendering an error message - 3:15
