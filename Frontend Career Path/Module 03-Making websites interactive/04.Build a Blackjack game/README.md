@@ -18,7 +18,7 @@ Build a Blackjack game - 55 lessons - 2 hours 45 min
 [x] 15. Display the message - 2:32
 [x] 16. Display the sum - 5:43
 [x] 17. Display the cards - 1:53
-[ ] 18. New card button - 3:39
+[x] 18. New card button - 3:39
 [ ] 19. Add to the sum when newCard is clicked - 3:16
 [ ] 20. Rename the startGame function - 2:11
 [ ] 21. Solving our cards problem with an array - 3:16
