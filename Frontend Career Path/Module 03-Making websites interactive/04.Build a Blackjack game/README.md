@@ -5,7 +5,7 @@ Build a Blackjack game - 55 lessons - 2 hours 45 min
 [x] 02. Add the firstCard, secondCard, and sum - 0:52
 [x] 03. If...else conditionals - 5:39
 [x] 04. Your first if...else statement - 2:53
-[ ] 05. if/else...if/else statement - 3:21
+[x] 05. if/else...if/else statement - 3:21
 [ ] 06. The if...else statement for our game - 1:59
 [ ] 07. Aside: Booleans - 5:00
 [ ] 08. Add the hasBlackJack variable - 2:03
