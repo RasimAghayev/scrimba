@@ -12,8 +12,8 @@ Build a Blackjack game - 55 lessons - 2 hours 45 min
 [x] 09. Add the isAlive variable - 1:44
 [x] 10. Let's practice boolean conditions - 3:25
 [x] 11. Add the message variable - 3:21
-[ ] 12. Link to stylesheet - 2:32
-[ ] 13. Add basic styling - 4:18
+[x] 12. Link to stylesheet - 2:32
+[x] 13. Add basic styling - 4:18
 [ ] 14. Make the start button work - 5:49
 [ ] 15. Display the message - 2:32
 [ ] 16. Display the sum - 5:43
