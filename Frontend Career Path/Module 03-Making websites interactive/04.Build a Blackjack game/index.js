@@ -1,13 +1,16 @@
-let hasDiscountCode = true;
+let firstCard = 10;
+let secondCard = 11;
+let sum = firstCard + secondCard;
+let hasBlackJack = false;
 
-function processOrder() {
-  if (hasDiscountCode) {
-    console.log("Discount applied to food order");
-    hasDiscountCode = false;
-  } else {
-    console.log("No discount applied");
-  }
+if (sum <= 20) {
+  console.log("Do you want to draw a new card? 🙂");
+} else if (sum === 21) {
+  console.log("Wohoo! You've got Blackjack! 🥳");
+  hasBlackJack = true;
+} else {
+  console.log("You're out of the game! 😭");
 }
 
-processOrder();
-processOrder();
+// CASH OUT!
+console.log(hasBlackJack);
