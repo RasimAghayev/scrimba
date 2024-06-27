@@ -14,6 +14,8 @@ function remove1Points() {
 add3Points();
 add3Points();
 add3Points();
+remove1Points();
+remove1Points();
 
 // Call the functions to that the line below logs out 10
 console.log(myPoints);
