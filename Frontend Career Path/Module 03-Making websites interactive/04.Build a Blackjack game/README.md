@@ -1,8 +1,8 @@
 
 Build a Blackjack game - 55 lessons - 2 hours 45 min
 
-[ ] 01. Let's build a Blackjack game! - 0:57
-[ ] 02. Add the firstCard, secondCard, and sum - 0:52
+[x] 01. Let's build a Blackjack game! - 0:57
+[x] 02. Add the firstCard, secondCard, and sum - 0:52
 [ ] 03. If...else conditionals - 5:39
 [ ] 04. Your first if...else statement - 2:53
 [ ] 05. if/else...if/else statement - 3:21
