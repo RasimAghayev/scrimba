@@ -29,7 +29,7 @@ Build a Blackjack game - 55 lessons - 2 hours 45 min
 [x] 26. Creating the cards array - 1:04
 [x] 27. Push a new card to the array - 1:18
 [x] 28. Aside: Loops - 4:01
-[ ] 29. Write your first loop - 3:22
+[x] 29. Write your first loop - 3:22
 [ ] 30. Aside: For loops and arrays - 3:43
 [ ] 31. Write your first array-based for loop - 1:29
 [ ] 32. For loops, arrays, and DOM - 2:55
