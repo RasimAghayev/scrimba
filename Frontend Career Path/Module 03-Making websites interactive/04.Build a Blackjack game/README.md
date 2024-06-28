@@ -33,7 +33,7 @@ Build a Blackjack game - 55 lessons - 2 hours 45 min
 [x] 30. Aside: For loops and arrays - 3:43
 [x] 31. Write your first array-based for loop - 1:29
 [x] 32. For loops, arrays, and DOM - 2:55
-[ ] 33. Use a loop to render cards - 2:16
+[x] 33. Use a loop to render cards - 2:16
 [ ] 34. How can we avoid to hard-code card values? - 1:31
 [ ] 35. Aside: Returning values in functions - 4:59
 [ ] 36. Use a function to set the card values - 3:06
