@@ -1,13 +1,6 @@
-// Arrays - ordered lists of items
+// Array - ordered list of items - coposite / complex data type
 
-// 0 indexed
-let featuredPosts = [
-    "Check out my Netflix clone",        // 0 
-    "Here's the code for my project",    // 1
-    "I've just relaunched my portfolio"  // 2
-]
+// Create an array that describes yourself. Use the three primitive data types you've learned
+// It should contain your name (string), your age (number), and whether you like pizza (boolean)
 
-console.log( featuredPosts.length )
-
-
-
+let per = ["Per Harald Borgen", 35, true]
