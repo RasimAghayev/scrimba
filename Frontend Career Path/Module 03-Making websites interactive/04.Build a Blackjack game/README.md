@@ -36,7 +36,7 @@ Build a Blackjack game - 55 lessons - 2 hours 45 min
 [x] 33. Use a loop to render cards - 2:16
 [x] 34. How can we avoid to hard-code card values? - 1:31
 [x] 35. Aside: Returning values in functions - 4:59
-[ ] 36. Use a function to set the card values - 3:06
+[x] 36. Use a function to set the card values - 3:06
 [ ] 37. Aside: Math.random() - 4:15
 [ ] 38. Math.random() * 6 - 1:43
 [ ] 39. Flooring the number with Math.floor() - 1:24
