@@ -27,7 +27,7 @@ Build a Blackjack game - 55 lessons - 2 hours 45 min
 [x] 24. Arrays with multiple data types - 2:18
 [x] 25. Aside: Array.push() and .pop() - 4:20
 [x] 26. Creating the cards array - 1:04
-[ ] 27. Push a new card to the array - 1:18
+[x] 27. Push a new card to the array - 1:18
 [ ] 28. Aside: Loops - 4:01
 [ ] 29. Write your first loop - 3:22
 [ ] 30. Aside: For loops and arrays - 3:43
