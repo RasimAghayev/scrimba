@@ -1,22 +1,13 @@
-let age = 75
+let largeCountries = ["Tuvalu","India","USA","Indonesia","Monaco"]
 
-// less than 6 years old -> free
-// 6 to 17 years old     -> child discount
-// 18 to 26 years old    -> student discount
-// 27 to 66 years old    -> full price
-// over 66 years old     -> senior citizen discount
+// You need to help me fixup the largeCountries array so that 
+// China and Pakistan are added back into their respective places
 
-// Create a conditional statement (if/else/else if) that logs out the discount
-// the passenger will get based upon the value of the age variable
+// Use push() & pop() and their counterparts unshift() & shift()
+// Google how to use unshift() and shift()
 
-if (age < 6) {
-    console.log("free")
-} else if (age < 18) {
-    console.log("child discount")
-} else if (age < 27) {
-    console.log("student discount")    
-} else if (age < 67) {
-    console.log("full price")
-} else {
-    console.log("senior citizen discount")
-}
+largeCountries.pop()
+largeCountries.push("Pakistan")
+largeCountries.shift()
+largeCountries.unshift("China")
+console.log(largeCountries)
