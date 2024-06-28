@@ -1,12 +1,15 @@
-let hasCompletedCourse = true
-let givesCertificate = true
+let hasSolvedChallenge = true
+let hasHintsLeft = false
 
-if (hasCompletedCourse === true && givesCertificate === true) {
-    generateCertificate()
+// Create an if statement that checks that both variables are false.
+// If so, run the showSolution() function
+
+if (hasSolvedChallenge === false && hasHintsLeft === false) {
+    showSolution()
 }
 
-function generateCertificate() {
-    console.log("Generating certificate....")
+function showSolution() {
+    console.log("Showing the solution....")
 }
 
 
