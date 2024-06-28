@@ -44,7 +44,7 @@ Build a Blackjack game - 55 lessons - 2 hours 45 min
 [x] 41. Completing our dice function - 2:37
 [x] 42. Make getRandomCard() work - 2:54
 [x] 43. Complete getRandomNumber function - 3:02
-[ ] 44. Assign values in the startGame function - 2:42
+[x] 44. Assign values in the startGame function - 2:42
 [ ] 45. Our new card feature is broken - 0:59
 [ ] 46. Aside: The AND operator (&&) - 3:41
 [ ] 47. Write your first logical operator - 2:04
