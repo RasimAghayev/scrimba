@@ -53,6 +53,6 @@ Build a Blackjack game - 55 lessons - 2 hours 45 min
 [x] 50. Object sneak peek - 4:32
 [x] 51. Aside: Intro to objects - 4:43
 [x] 52. Create your first object - 3:15
-[ ] 53. Use an object to store player data - 2:37
+[x] 53. Use an object to store player data - 2:37
 [ ] 54. Methods on object - 1:58
 [ ] 55. Congrats & recap - 4:24
