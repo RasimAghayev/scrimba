@@ -1,15 +1,13 @@
-let hasSolvedChallenge = true
-let hasHintsLeft = false
+// Create two boolean variables, likesDocumentaries and likesStartups
+// Use an OR statement (||) to call recommendMovie() if either of those variables are true
 
-// Create an if statement that checks that both variables are false.
-// If so, run the showSolution() function
+let likesDocumentaries = true
+let likesStartups = true
 
-if (hasSolvedChallenge === false && hasHintsLeft === false) {
-    showSolution()
+if (likesDocumentaries === true || likesStartups === true) {
+    recommendMovie()
 }
 
-function showSolution() {
-    console.log("Showing the solution....")
+function recommendMovie() {
+    console.log("Hey, check out this new film we think you will like!")
 }
-
-
