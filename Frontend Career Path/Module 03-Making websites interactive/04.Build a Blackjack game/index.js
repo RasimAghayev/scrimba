@@ -1,12 +1,10 @@
-let randomNumber = Math.floor( Math.random() * 6 )
 
-console.log(randomNumber)
+// Create a function, rollDice(), that returns a random number between 1 and 6
 
-/* 
+function rollDice() {
+    let randomNumber = Math.floor( Math.random() * 6 ) + 1
+    return randomNumber
+}
 
-Write down all the possible values randomNumber can hold now!
+console.log( rollDice() )
 
- 0,1,2,3,4,5
-
-
-*/

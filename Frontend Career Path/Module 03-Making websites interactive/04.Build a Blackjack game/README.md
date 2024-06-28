@@ -41,7 +41,7 @@ Build a Blackjack game - 55 lessons - 2 hours 45 min
 [x] 38. Math.random() * 6 - 1:43
 [x] 39. Flooring the number with Math.floor() - 1:24
 [x] 40. Using Math.random() and Math.floor() to create a dice - 1:40
-[ ] 41. Completing our dice function - 2:37
+[x] 41. Completing our dice function - 2:37
 [ ] 42. Make getRandomCard() work - 2:54
 [ ] 43. Complete getRandomNumber function - 3:02
 [ ] 44. Assign values in the startGame function - 2:42
