@@ -1,14 +1,12 @@
-// let randomNumber = Math.random() * 6
+let randomNumber = Math.floor( Math.random() * 6 )
 
-let flooredNumber = Math.floor(12.999999999999)
-
-console.log(flooredNumber)
-
+console.log(randomNumber)
 
 /* 
 
-What does Math.floor() do to positive numbers?
+Write down all the possible values randomNumber can hold now!
 
-Your answer: it removes the decimals
+ 0,1,2,3,4,5
+
 
 */
