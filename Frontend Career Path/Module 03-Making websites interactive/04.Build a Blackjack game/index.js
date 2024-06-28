@@ -1,13 +1,13 @@
 // Arrays - ordered lists of items
 
+// 0 indexed
 let featuredPosts = [
-    "Check out my Netflix clone",
-    "Here's the code for my project",
-    "I've just relaunched my portfolio"
+    "Check out my Netflix clone",        // 0 
+    "Here's the code for my project",    // 1
+    "I've just relaunched my portfolio"  // 2
 ]
 
-// Create an array that lists your i.e. experience, education, licenses, skills or similar
-// The items of the array should be strings
+console.log( featuredPosts.length )
 
-let experience = ["CEO at Scrimba", "Frontend developer at Xeneta", "People counter for Norstat"]
+
 
