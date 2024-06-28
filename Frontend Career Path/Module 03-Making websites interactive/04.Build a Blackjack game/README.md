@@ -45,8 +45,8 @@ Build a Blackjack game - 55 lessons - 2 hours 45 min
 [x] 42. Make getRandomCard() work - 2:54
 [x] 43. Complete getRandomNumber function - 3:02
 [x] 44. Assign values in the startGame function - 2:42
-[ ] 45. Our new card feature is broken - 0:59
-[ ] 46. Aside: The AND operator (&&) - 3:41
+[x] 45. Our new card feature is broken - 0:59
+[x] 46. Aside: The AND operator (&&) - 3:41
 [ ] 47. Write your first logical operator - 2:04
 [ ] 48. Aside: The OR operator (||) - 3:02
 [ ] 49. Only trigger newCard() if you're allowed to - 1:27
