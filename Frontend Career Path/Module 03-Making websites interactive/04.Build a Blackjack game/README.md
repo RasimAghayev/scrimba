@@ -50,7 +50,7 @@ Build a Blackjack game - 55 lessons - 2 hours 45 min
 [x] 47. Write your first logical operator - 2:04
 [x] 48. Aside: The OR operator (||) - 3:02
 [x] 49. Only trigger newCard() if you're allowed to - 1:27
-[ ] 50. Object sneak peek - 4:32
+[x] 50. Object sneak peek - 4:32
 [ ] 51. Aside: Intro to objects - 4:43
 [ ] 52. Create your first object - 3:15
 [ ] 53. Use an object to store player data - 2:37
