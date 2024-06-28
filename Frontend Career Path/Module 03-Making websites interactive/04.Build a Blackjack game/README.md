@@ -22,7 +22,7 @@ Build a Blackjack game - 55 lessons - 2 hours 45 min
 [x] 19. Add to the sum when newCard is clicked - 3:16
 [x] 20. Rename the startGame function - 2:11
 [x] 21. Solving our cards problem with an array - 3:16
-[ ] 22. Aside: Intro to arrays - 5:24
+[x] 22. Aside: Intro to arrays - 5:24
 [ ] 23. Aside: Array indexes - 4:03
 [ ] 24. Arrays with multiple data types - 2:18
 [ ] 25. Aside: Array.push() and .pop() - 4:20
