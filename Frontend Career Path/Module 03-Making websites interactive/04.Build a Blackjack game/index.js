@@ -1,21 +1,38 @@
-let cards = [7, 4]
-cards.push(6)
-//console.log(cards)
+let firstCard = 10
+let secondCard = 4
+// 1. Create a new array - cards - that contains firstCard and secondCard
+let cards = [firstCard, secondCard]
+let sum = firstCard + secondCard
+let hasBlackJack = false
+let isAlive = true
+let message = ""
+let messageEl = document.getElementById("message-el")
+let sumEl = document.getElementById("sum-el")
+let cardsEl = document.getElementById("cards-el")
 
-// Push the newMessage to the messages array, and then log out the array
+function startGame() {
+    renderGame()
+}
 
-let messages = [
-    "Hey, how's it going?",        
-    "I'm great, thank you! How about you?",
-    "All good. Been working on my portfolio lately."
-]
+function renderGame() {
+    // 2. Refer to the cards array when rendering out the cards
+    cardsEl.textContent = "Cards: " + cards[0] + " " + cards[1]
+    sumEl.textContent = "Sum: " + sum
+    if (sum <= 20) {
+        message = "Do you want to draw a new card?"
+    } else if (sum === 21) {
+        message = "You've got Blackjack!"
+        hasBlackJack = true
+    } else {
+        message = "You're out of the game!"
+        isAlive = false
+    }
+    messageEl.textContent = message
+}
 
-let newMessage = "Same here!"
-messages.push(newMessage)
-console.log(messages)
 
-// How can you remove the last item in an array? Try to google it!
-messages.pop()
-console.log(messages)
-
-
+function newCard() {
+    let card = 6
+    sum += card
+    renderGame()
+}
