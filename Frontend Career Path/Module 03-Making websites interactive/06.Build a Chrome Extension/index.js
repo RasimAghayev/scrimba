@@ -1,10 +1,19 @@
-// Create two variables:
-// myLeads -> should be assigned to an empty array
-// inputEl -> should be assigned to the text input field
-let myLeads = [];
-const inputEl = document.getElementById("input-el");
-const inputBtn = document.getElementById("input-btn");
+// If possible, use const. If not, use let.
 
-inputBtn.addEventListener("click", function () {
-  console.log("Button clicked!");
-});
+// Which variables below should be changed from let to const?
+
+// The customer wants to order some stuff. Here are the details:
+const basePrice = 520;
+const discount = 120;
+let shippingCost = 12;
+let shippingTime = "5-12 days";
+
+// Whops! Turns out the shipping will be a bit more complex
+shippingCost = 15;
+shippingTime = "7-14 days";
+
+// Calculating the full price
+const fullPrice = basePrice - discount + shippingCost;
+
+// Finally, notifying the customer
+console.log("Total cost: " + fullPrice + ". It will arrive in " + shippingTime);
