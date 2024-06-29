@@ -20,7 +20,7 @@ Build a Chrome Extension - 57 lessons - 2 hours 52 min
 [x] 17. More innerHTML practice - 1:48
 [x] 18. Render the <li> elements with innerHTML - 1:07
 [x] 19. Use createElement() and append() instead of innerHTML - 3:35
-[ ] 20. Improving the performance of our app - 3:17
+[x] 20. Improving the performance of our app - 3:17
 [ ] 21. Create the render function - 2:00
 [ ] 22. Clear the input field - 2:03
 [ ] 23. Aside: another way to render leads - 2:49
