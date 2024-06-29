@@ -3,22 +3,22 @@ const inputEl = document.getElementById("input-el");
 const inputBtn = document.getElementById("input-btn");
 const ulEl = document.getElementById("ul-el");
 
-// Get the leads from the localStorage - PS: JSON.parse()
-// Store it in a variable, leadsFromLocalStorage
-// Log out the variable
-localStorage.clear();
+// ["lead1", "lead2"] or null
 let leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"));
-
 console.log(leadsFromLocalStorage);
+// 1. Check if leadsFromLocalStorage is truthy
+// 2. If so, set myLeads to its value and call renderLeads()
+
+if (leadsFromLocalStorage) {
+  myLeads = leadsFromLocalStorage;
+  renderLeads();
+}
 
 inputBtn.addEventListener("click", function () {
   myLeads.push(inputEl.value);
   inputEl.value = "";
   localStorage.setItem("myLeads", JSON.stringify(myLeads));
   renderLeads();
-
-  // To verify that it works:
-  console.log(localStorage.getItem("myLeads"));
 });
 
 function renderLeads() {
@@ -34,10 +34,3 @@ function renderLeads() {
   }
   ulEl.innerHTML = listItems;
 }
-
-console.log(Boolean("")); // false
-console.log(Boolean("0")); // true
-console.log(Boolean(100)); // true
-console.log(Boolean(null)); // false
-console.log(Boolean([0])); // true
-console.log(Boolean(-0)); // false
