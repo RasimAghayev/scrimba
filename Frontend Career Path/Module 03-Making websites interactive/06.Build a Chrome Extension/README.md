@@ -38,7 +38,7 @@ Build a Chrome Extension - 57 lessons - 2 hours 52 min
 [x] 35. Your first localStorage - 3:48
 [x] 36. Storing arrays in localStorage - 6:23
 [x] 37. Save the leads to localStorage - 2:28
-[ ] 38. Get the leads from localStorage - 3:50
+[x] 38. Get the leads from localStorage - 3:50
 [ ] 39. Aside: Truthy and falsy values - 7:54
 [ ] 40. Guess the expression - truthy or falsy? - 2:22
 [ ] 41. Checking localStorage before rendering - 3:37
