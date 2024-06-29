@@ -32,7 +32,7 @@ Build a Chrome Extension - 57 lessons - 2 hours 52 min
 [x] 29. Refactor the app to use a template string - 1:12
 [x] 30. Aside: Convert strings to numbers with Number() - 3:42
 [x] 31. Style the list - 3:50
-[ ] 32. Preparing the deployment - 4:52
+[x] 32. Preparing the deployment - 4:52
 [ ] 33. Deploying the Chrome Extension - 2:28
 [ ] 34. Aside: What is localStorage? - 3:02
 [ ] 35. Your first localStorage - 3:48
