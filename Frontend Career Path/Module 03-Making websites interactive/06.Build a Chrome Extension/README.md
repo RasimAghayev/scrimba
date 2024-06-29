@@ -6,7 +6,7 @@ Build a Chrome Extension - 57 lessons - 2 hours 52 min
 [x] 03. Style the button and input tag - 7:16
 [x] 04. Make the input button work with onclick - 1:17
 [x] 05. Refactor to addEventListener - 2:18
-[ ] 06. Write your first addEventListener() - 1:44
+[x] 06. Write your first addEventListener() - 1:44
 [ ] 07. Your turn to refactor - 1:22
 [ ] 08. Create the myLeads array and inputEl - 2:21
 [ ] 09. When to use let and const - 3:17
