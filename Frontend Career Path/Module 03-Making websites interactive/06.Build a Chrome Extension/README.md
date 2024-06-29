@@ -18,7 +18,7 @@ Build a Chrome Extension - 57 lessons - 2 hours 52 min
 [x] 15. How to render <li> elements with innerHTML - 1:33
 [x] 16. Write your first innerHTML - 1:31
 [x] 17. More innerHTML practice - 1:48
-[ ] 18. Render the <li> elements with innerHTML - 1:07
+[x] 18. Render the <li> elements with innerHTML - 1:07
 [ ] 19. Use createElement() and append() instead of innerHTML - 3:35
 [ ] 20. Improving the performance of our app - 3:17
 [ ] 21. Create the render function - 2:00
