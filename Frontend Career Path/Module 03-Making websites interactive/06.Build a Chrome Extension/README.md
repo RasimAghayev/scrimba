@@ -48,7 +48,7 @@ Build a Chrome Extension - 57 lessons - 2 hours 52 min
 [x] 45. Write your first function parameter - 3:27
 [x] 46. Functions with multiple parameters - 3:11
 [x] 47. Numbers as function parameters - 1:41
-[ ] 48. Aside: Arguments vs Parameters - 3:22
+[x] 48. Aside: Arguments vs Parameters - 3:22
 [ ] 49. Arrays as parameters - 1:54
 [ ] 50. Refactor renderLeads() to use a parameter - 1:39
 [ ] 51. Create the tabBtn - 3:19
