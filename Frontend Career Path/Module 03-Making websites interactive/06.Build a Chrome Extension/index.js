@@ -1,13 +1,5 @@
-let myLeads = ["www.awesomelead.com", "www.epiclead.com", "www.greatlead.com"];
-const inputEl = document.getElementById("input-el");
-const inputBtn = document.getElementById("input-btn");
-const ulEl = document.getElementById("ul-el");
+// Use .innerHTML to render a Buy! button inside the div container
 
-inputBtn.addEventListener("click", function () {
-  myLeads.push(inputEl.value);
-  console.log(myLeads);
-});
+const container = document.getElementById("container");
 
-for (let i = 0; i < myLeads.length; i++) {
-  ulEl.innerHTML += "<li>" + myLeads[i] + "</li>";
-}
+container.innerHTML = "<button>Buy!</button>";
