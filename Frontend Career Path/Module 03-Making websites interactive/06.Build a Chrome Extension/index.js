@@ -1,9 +1,8 @@
-// 1. Grab the box from the DOM and store it in a variable
-// 2. Add a click event listener to the box
-// 3. Log out "I want to open the box!" when it's clicked
+// Refactor the code so that it uses .addEventListener()
+// when you click the SAVE INPUT button
 
-let box = document.getElementById("box");
+let inputBtn = document.getElementById("input-btn");
 
-box.addEventListener("click", function () {
-  console.log("I want to open the box!");
+inputBtn.addEventListener("click", function () {
+  console.log("Button clicked!");
 });
