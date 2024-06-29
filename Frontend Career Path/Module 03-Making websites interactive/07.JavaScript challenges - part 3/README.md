@@ -9,4 +9,4 @@ JavaScript challenges - part 3 - 9 lessons - 26 min
 [x] 06. Render images - 6:05
 [x] 07. Rounding numbers - 1:45
 [x] 08. Convert string to number challenge - 2:24
-[ ] 09. Solo Project (PRO) - Unit converter - 1:54
+[x] 09. Solo Project (PRO) - Unit converter - 1:54
