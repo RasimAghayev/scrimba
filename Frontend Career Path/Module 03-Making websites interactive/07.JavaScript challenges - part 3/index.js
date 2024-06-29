@@ -1,8 +1,18 @@
-// Save a value to localStorage
-// Delete your code and refresh the page
-// Fetch your value from localStorage and log it out
+let data = [
+  {
+    player: "Jane",
+    score: 52,
+  },
+  {
+    player: "Mark",
+    score: 41,
+  },
+];
 
-localStorage.setItem("myCredits", "100");
-
-let myCredits = localStorage.getItem("myCredits");
-console.log(myCredits);
+// Fetch the button from the DOM, store it in a variable
+const janeBtn = document.getElementById("jane-btn");
+// Use addEventListener() to listen for button clicks
+janeBtn.addEventListener("click", function () {
+  console.log(data[0].score);
+});
+// Log Jane's score when the button is clicked (via data)
