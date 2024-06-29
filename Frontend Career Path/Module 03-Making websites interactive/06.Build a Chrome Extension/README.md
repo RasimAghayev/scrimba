@@ -25,7 +25,7 @@ Build a Chrome Extension - 57 lessons - 2 hours 52 min
 [x] 22. Clear the input field - 2:03
 [x] 23. Aside: another way to render leads - 2:49
 [x] 24. Add the <a> tag - 4:28
-[ ] 25. Template strings - 2:30
+[x] 25. Template strings - 2:30
 [ ] 26. Write your first template string - 1:15
 [ ] 27. Make the template string even more dynamic - 0:51
 [ ] 28. Template strings on multiple lines - 2:53
