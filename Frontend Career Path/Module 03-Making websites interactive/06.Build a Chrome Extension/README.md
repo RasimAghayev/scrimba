@@ -36,7 +36,7 @@ Build a Chrome Extension - 57 lessons - 2 hours 52 min
 [x] 33. Deploying the Chrome Extension - 2:28
 [x] 34. Aside: What is localStorage? - 3:02
 [x] 35. Your first localStorage - 3:48
-[ ] 36. Storing arrays in localStorage - 6:23
+[x] 36. Storing arrays in localStorage - 6:23
 [ ] 37. Save the leads to localStorage - 2:28
 [ ] 38. Get the leads from localStorage - 3:50
 [ ] 39. Aside: Truthy and falsy values - 7:54
