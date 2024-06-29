@@ -1,7 +1,7 @@
 
 JavaScript challenges - part 3 - 9 lessons - 26 min
 
-[ ] 01. let & const - 3:12
+[x] 01. let & const - 3:12
 [ ] 02. Log out items in an array - 1:17
 [ ] 03. save to localStorage - 1:53
 [ ] 04. addEventListener and object in array - 2:39
