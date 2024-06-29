@@ -39,9 +39,10 @@ inputBtn.addEventListener("click", function () {
 });
 const welcomeEl = document.getElementById("welcome-el");
 
-// Give the function a parameter, greeting, that replaces "Welcome back"
-function greetUser(greeting) {
-  welcomeEl.textContent = greeting + ", Per Harald Borgen 👋";
+// Add the ability to choose the emoji as well!
+
+function greetUser(greeting, name, emoji) {
+  welcomeEl.textContent = `${greeting}, ${name} ${emoji}`;
 }
 
-greetUser("Howdy");
+greetUser("Howdy", "James", "🔥");

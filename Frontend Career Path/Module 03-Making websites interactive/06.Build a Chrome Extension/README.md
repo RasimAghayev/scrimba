@@ -46,7 +46,7 @@ Build a Chrome Extension - 57 lessons - 2 hours 52 min
 [x] 43. Make the delete button work - 4:16
 [x] 44. How function parameters can improve our code - 5:54
 [x] 45. Write your first function parameter - 3:27
-[ ] 46. Functions with multiple parameters - 3:11
+[x] 46. Functions with multiple parameters - 3:11
 [ ] 47. Numbers as function parameters - 1:41
 [ ] 48. Aside: Arguments vs Parameters - 3:22
 [ ] 49. Arrays as parameters - 1:54
