@@ -28,7 +28,7 @@ Build a Chrome Extension - 57 lessons - 2 hours 52 min
 [x] 25. Template strings - 2:30
 [x] 26. Write your first template string - 1:15
 [x] 27. Make the template string even more dynamic - 0:51
-[ ] 28. Template strings on multiple lines - 2:53
+[x] 28. Template strings on multiple lines - 2:53
 [ ] 29. Refactor the app to use a template string - 1:12
 [ ] 30. Aside: Convert strings to numbers with Number() - 3:42
 [ ] 31. Style the list - 3:50
