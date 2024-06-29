@@ -43,7 +43,7 @@ Build a Chrome Extension - 57 lessons - 2 hours 52 min
 [x] 40. Guess the expression - truthy or falsy? - 2:22
 [x] 41. Checking localStorage before rendering - 3:37
 [x] 42. Style the delete button - 3:17
-[ ] 43. Make the delete button work - 4:16
+[x] 43. Make the delete button work - 4:16
 [ ] 44. How function parameters can improve our code - 5:54
 [ ] 45. Write your first function parameter - 3:27
 [ ] 46. Functions with multiple parameters - 3:11
