@@ -39,8 +39,8 @@ Build a Chrome Extension - 57 lessons - 2 hours 52 min
 [x] 36. Storing arrays in localStorage - 6:23
 [x] 37. Save the leads to localStorage - 2:28
 [x] 38. Get the leads from localStorage - 3:50
-[ ] 39. Aside: Truthy and falsy values - 7:54
-[ ] 40. Guess the expression - truthy or falsy? - 2:22
+[x] 39. Aside: Truthy and falsy values - 7:54
+[x] 40. Guess the expression - truthy or falsy? - 2:22
 [ ] 41. Checking localStorage before rendering - 3:37
 [ ] 42. Style the delete button - 3:17
 [ ] 43. Make the delete button work - 4:16
