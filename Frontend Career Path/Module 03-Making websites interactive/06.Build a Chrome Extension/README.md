@@ -13,7 +13,7 @@ Build a Chrome Extension - 57 lessons - 2 hours 52 min
 [x] 10. Push to the myLeads array - 1:10
 [x] 11. Push the value from the input field - 2:27
 [x] 12. Use a for loop to log out leads - 1:39
-[ ] 13. Create the unordered list - 1:55
+[x] 13. Create the unordered list - 1:55
 [ ] 14. Render the leads in the unordered list - 3:41
 [ ] 15. How to render <li> elements with innerHTML - 1:33
 [ ] 16. Write your first innerHTML - 1:31
