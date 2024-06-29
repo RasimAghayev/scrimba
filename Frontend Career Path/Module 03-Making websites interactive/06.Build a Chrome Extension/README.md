@@ -50,7 +50,7 @@ Build a Chrome Extension - 57 lessons - 2 hours 52 min
 [x] 47. Numbers as function parameters - 1:41
 [x] 48. Aside: Arguments vs Parameters - 3:22
 [x] 49. Arrays as parameters - 1:54
-[ ] 50. Refactor renderLeads() to use a parameter - 1:39
+[x] 50. Refactor renderLeads() to use a parameter - 1:39
 [ ] 51. Create the tabBtn - 3:19
 [ ] 52. Save the tab url - 2:35
 [ ] 53. How to get the current tab? - 4:19

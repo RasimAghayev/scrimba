@@ -1,5 +1,4 @@
 let myLeads = [];
-let oldLeads = [];
 const inputEl = document.getElementById("input-el");
 const inputBtn = document.getElementById("input-btn");
 const ulEl = document.getElementById("ul-el");
@@ -10,6 +9,10 @@ if (leadsFromLocalStorage) {
   myLeads = leadsFromLocalStorage;
   render(myLeads);
 }
+
+// Refector the function so that it takes a parameter, leads, that it uses
+// instead of the global myLeads variable. Remember to update all invocations
+// of the function as well.
 
 function render(leads) {
   let listItems = "";
@@ -37,50 +40,3 @@ inputBtn.addEventListener("click", function () {
   localStorage.setItem("myLeads", JSON.stringify(myLeads));
   render(myLeads);
 });
-const welcomeEl = document.getElementById("welcome-el");
-
-// Add the ability to choose the emoji as well!
-
-function greetUser(greeting, name, emoji) {
-  welcomeEl.textContent = `${greeting}, ${name} ${emoji}`;
-}
-
-greetUser("Howdy", "James", "🔥");
-// Create a function, add(), that adds two numbers together and returns the sum
-
-function add(num1, num2) {
-  return num1 + num2;
-}
-
-console.log(add(3, 4)); // should log 7
-console.log(add(9, 102)); // should log 111
-// What are greeting and name? parameters
-// What are "Howdy" and "James"? arguments
-// What are num1 and num2? parameters
-// What are 3 and 4? arguments
-
-//.                parameters
-function greetUser(greeting, name) {
-  welcomeEl.textContent = `${greeting}, ${name} 👋`;
-}
-
-//.        arguments
-let hi = "Howdy";
-greetUser(hi, "James");
-
-function add(num1, num2) {
-  return num1 + num2;
-}
-
-add(3, 4);
-// Create a function, getFirst(arr), that returns the first item in the array
-
-function getFirst(arr) {
-  return arr[0];
-}
-
-let firstCard = getFirst([10, 2, 5]);
-
-console.log(firstCard);
-
-// Call it with an array as an argument to verify that it works
