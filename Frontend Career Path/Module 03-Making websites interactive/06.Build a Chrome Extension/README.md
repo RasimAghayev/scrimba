@@ -23,7 +23,7 @@ Build a Chrome Extension - 57 lessons - 2 hours 52 min
 [x] 20. Improving the performance of our app - 3:17
 [x] 21. Create the render function - 2:00
 [x] 22. Clear the input field - 2:03
-[ ] 23. Aside: another way to render leads - 2:49
+[x] 23. Aside: another way to render leads - 2:49
 [ ] 24. Add the <a> tag - 4:28
 [ ] 25. Template strings - 2:30
 [ ] 26. Write your first template string - 1:15
