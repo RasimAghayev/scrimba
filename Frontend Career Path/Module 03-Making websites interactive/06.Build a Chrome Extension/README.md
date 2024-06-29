@@ -1,9 +1,9 @@
 
 Build a Chrome Extension - 57 lessons - 2 hours 52 min
  - 
-[ ] 01. Let's build a Chrome Extension! - 4:33
-[ ] 02. Add button and input tag - 1:33
-[ ] 03. Style the button and input tag - 7:16
+[x] 01. Let's build a Chrome Extension! - 4:33
+[x] 02. Add button and input tag - 1:33
+[x] 03. Style the button and input tag - 7:16
 [ ] 04. Make the input button work with onclick - 1:17
 [ ] 05. Refactor to addEventListener - 2:18
 [ ] 06. Write your first addEventListener() - 1:44
