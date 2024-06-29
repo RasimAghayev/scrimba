@@ -1,19 +1,10 @@
-// If possible, use const. If not, use let.
+let myLeads = [];
+const inputEl = document.getElementById("input-el");
+const inputBtn = document.getElementById("input-btn");
 
-// Which variables below should be changed from let to const?
+// Push the value "www.awesomelead.com" to myArray when the input button is clicked
 
-// The customer wants to order some stuff. Here are the details:
-const basePrice = 520;
-const discount = 120;
-let shippingCost = 12;
-let shippingTime = "5-12 days";
-
-// Whops! Turns out the shipping will be a bit more complex
-shippingCost = 15;
-shippingTime = "7-14 days";
-
-// Calculating the full price
-const fullPrice = basePrice - discount + shippingCost;
-
-// Finally, notifying the customer
-console.log("Total cost: " + fullPrice + ". It will arrive in " + shippingTime);
+inputBtn.addEventListener("click", function () {
+  myLeads.push("www.awesomelead.com");
+  console.log(myLeads);
+});
