@@ -1,18 +1,25 @@
-let data = [
-  {
-    player: "Jane",
-    score: 52,
-  },
-  {
-    player: "Mark",
-    score: 41,
-  },
-];
+// The generateSentence(desc, arr) takes two parameterer: a description and an array.
+// It should return a string based upon the description and array.
 
-// Fetch the button from the DOM, store it in a variable
-const janeBtn = document.getElementById("jane-btn");
-// Use addEventListener() to listen for button clicks
-janeBtn.addEventListener("click", function () {
-  console.log(data[0].score);
-});
-// Log Jane's score when the button is clicked (via data)
+// Example 1: if you pass in "largest countries",and ["China", "India", "USA"],
+// it should return the string: "The 3 largest countries are China, India, USA"
+
+// Example 2: If you pass in "best fruits" and ["Apples", "Bananas"], it should return:
+// "The 2 best fruits are Apples, Bananas"
+
+// Use both a for loop and a template string to solve the challenge
+function generateSentence(desc, arr) {
+  let baseString = `The ${arr.length} ${desc} are `;
+  const lastIndex = arr.length - 1;
+  for (let i = 0; i < arr.length; i++) {
+    if (i === lastIndex) {
+      baseString += arr[i];
+    } else {
+      baseString += arr[i] + ", ";
+    }
+  }
+  return baseString;
+}
+
+const sentence = generateSentence("highest mountains", ["Mount Everest", "K2"]);
+console.log(sentence);
