@@ -55,6 +55,6 @@ Build a Chrome Extension - 57 lessons - 2 hours 52 min
 [x] 52. Save the tab url - 2:35
 [x] 53. How to get the current tab? - 4:19
 [x] 54. Use the Chrome API to get the tab - 6:18
-[ ] 55. Deploy the final version - 2:14
-[ ] 56. Congrats & recap - 5:43
+[x] 55. Deploy the final version - 2:14
+[x] 56. Congrats & recap - 5:43
 [ ] 57. Share your pet! - 1:23
