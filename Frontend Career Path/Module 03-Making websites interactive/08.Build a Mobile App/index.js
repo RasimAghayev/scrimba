@@ -1,30 +1,46 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-app.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
 import {
   getDatabase,
   ref,
   push,
   onValue,
-} from "https://www.gstatic.com/firebasejs/10.7.2/firebase-database.js";
+} from "https://www.gstatic.com/firebasejs/10.8.1/firebase-database.js";
 
 const firebaseConfig = {
-  databaseURL:
-    "https://keep-calm-and-carry-on-e73a1-default-rtdb.europe-west1.firebasedatabase.app/",
+  databaseURL: process.env.DATABASE_URL,
 };
 
 const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
-const referenceInDB = ref(database, "products");
+const referenceInDB = ref(database, "leads");
 
-const productNameInputField = document.getElementById("product-name-input");
-const productValueInputField = document.getElementById("product-value-input");
-const submitButton = document.getElementById("submit-button");
+const inputEl = document.getElementById("input-el");
+const inputBtn = document.getElementById("input-btn");
+const ulEl = document.getElementById("ul-el");
+const deleteBtn = document.getElementById("delete-btn");
 
+function render(leads) {
+  let listItems = "";
+  for (let i = 0; i < leads.length; i++) {
+    listItems += `
+            <li>
+                <a target='_blank' href='${leads[i]}'>
+                    ${leads[i]}
+                </a>
+            </li>
+        `;
+  }
+  ulEl.innerHTML = listItems;
+}
+
+// Challenge: Log out a snapshot of your database when a new value is added to it
 onValue(referenceInDB, function (snapshot) {
   console.log(snapshot.val());
 });
 
-submitButton.addEventListener("click", function () {
-  productNameInputField.value;
-  push(referenceInDB, productNameInputField.value);
-  productNameInputField.value = "";
+deleteBtn.addEventListener("dblclick", function () {});
+
+inputBtn.addEventListener("click", function () {
+  push(referenceInDB, inputEl.value);
+  inputEl.value = "";
 });
