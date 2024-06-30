@@ -1,41 +1,30 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-app.js";
 import {
   getDatabase,
   ref,
   push,
-} from "https://www.gstatic.com/firebasejs/10.8.1/firebase-database.js";
+  onValue,
+} from "https://www.gstatic.com/firebasejs/10.7.2/firebase-database.js";
 
 const firebaseConfig = {
-  databaseURL: process.env.DATABASE_URL,
+  databaseURL:
+    "https://keep-calm-and-carry-on-e73a1-default-rtdb.europe-west1.firebasedatabase.app/",
 };
 
 const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
-const referenceInDB = ref(database, "leads");
+const referenceInDB = ref(database, "products");
 
-const inputEl = document.getElementById("input-el");
-const inputBtn = document.getElementById("input-btn");
-const ulEl = document.getElementById("ul-el");
-const deleteBtn = document.getElementById("delete-btn");
+const productNameInputField = document.getElementById("product-name-input");
+const productValueInputField = document.getElementById("product-value-input");
+const submitButton = document.getElementById("submit-button");
 
-function render(leads) {
-  let listItems = "";
-  for (let i = 0; i < leads.length; i++) {
-    listItems += `
-            <li>
-                <a target='_blank' href='${leads[i]}'>
-                    ${leads[i]}
-                </a>
-            </li>
-        `;
-  }
-  ulEl.innerHTML = listItems;
-}
+onValue(referenceInDB, function (snapshot) {
+  console.log(snapshot.val());
+});
 
-deleteBtn.addEventListener("dblclick", function () {});
-
-inputBtn.addEventListener("click", function () {
-  push(referenceInDB, inputEl.value);
-  // Challenge: Import the 'push' function and modify the line above to push inputEl.value to the referenceInDB in the database
-  inputEl.value = "";
+submitButton.addEventListener("click", function () {
+  productNameInputField.value;
+  push(referenceInDB, productNameInputField.value);
+  productNameInputField.value = "";
 });
