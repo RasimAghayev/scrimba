@@ -1,5 +1,6 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+import { getDatabase } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-database.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-analytics.js";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -7,18 +8,21 @@ import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.2/firebas
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBW8hK69UgM-F-LUd0CRd74UVLPzM2k0cs",
-  authDomain: "leads-tracker-app-75a41.firebaseapp.com",
-  projectId: "leads-tracker-app-75a41",
-  storageBucket: "leads-tracker-app-75a41.appspot.com",
-  messagingSenderId: "432218779852",
-  appId: "1:432218779852:web:664fea2d266f0e0c729269",
-  measurementId: "G-QDV42ECF7M",
+  databaseURL:
+    "https://leads-tracker-app-75a41-default-rtdb.europe-west1.firebasedatabase.app/",
+  // apiKey: "AIzaSyBW8hK69UgM-F-LUd0CRd74UVLPzM2k0cs",
+  // authDomain: "leads-tracker-app-75a41.firebaseapp.com",
+  // projectId: "leads-tracker-app-75a41",
+  // storageBucket: "leads-tracker-app-75a41.appspot.com",
+  // messagingSenderId: "432218779852",
+  // appId: "1:432218779852:web:664fea2d266f0e0c729269",
+  // measurementId: "G-QDV42ECF7M",
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
+const database = getDatabase(app);
 
 let myLeads = [];
 const inputEl = document.getElementById("input-el");

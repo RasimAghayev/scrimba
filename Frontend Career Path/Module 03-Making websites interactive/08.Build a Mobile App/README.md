@@ -2,7 +2,7 @@ Build a Mobile App - 38 lessons - 2 hours 6 min
 
 [x] 01. Let's Build a Mobile App with Firebase - 3:33
 [x] 02. Setting up app skeleton - 3:47
-[ ] 03. Adding CSS - 4:21
+[x] 03. Adding CSS - 4:21
 [ ] 04. Aside: Firebase Realtime Database - 10:01
 [ ] 05. Adding Firebase to project - 4:49
 [ ] 06. Security Rules - 2:30
