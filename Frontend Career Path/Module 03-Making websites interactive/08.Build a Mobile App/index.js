@@ -1,31 +1,34 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-app.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
 import {
   getDatabase,
   ref,
   push,
   onValue,
   remove,
-} from "https://www.gstatic.com/firebasejs/10.7.2/firebase-database.js";
+} from "https://www.gstatic.com/firebasejs/10.8.1/firebase-database.js";
 
 const firebaseConfig = {
-  databaseURL:
-    "https://choreslist-86076-default-rtdb.europe-west1.firebasedatabase.app/",
+  databaseURL: process.env.DATABASE_URL,
 };
 
 const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
-const referenceInDB = ref(database, "chores");
+const referenceInDB = ref(database, "leads");
 
-const choreInputEl = document.getElementById("chore-input");
-const addButtonEl = document.getElementById("add-button");
-const deleteAllButtonEl = document.getElementById("delete-all-button");
-const ulEl = document.getElementById("chores-list");
+const inputEl = document.getElementById("input-el");
+const inputBtn = document.getElementById("input-btn");
+const ulEl = document.getElementById("ul-el");
+const deleteBtn = document.getElementById("delete-btn");
 
-function render(chores) {
+function render(leads) {
   let listItems = "";
-  for (let i = 0; i < chores.length; i++) {
+  for (let i = 0; i < leads.length; i++) {
     listItems += `
-            <li>${chores[i]}</li>
+            <li>
+                <a target='_blank' href='${leads[i]}'>
+                    ${leads[i]}
+                </a>
+            </li>
         `;
   }
   ulEl.innerHTML = listItems;
@@ -35,17 +38,17 @@ onValue(referenceInDB, function (snapshot) {
   const snapshotDoesExist = snapshot.exists();
   if (snapshotDoesExist) {
     const snapshotValues = snapshot.val();
-    const chores = Object.values(snapshotValues);
-    render(chores);
+    const leads = Object.values(snapshotValues);
+    render(leads);
   }
 });
 
-deleteAllButtonEl.addEventListener("dblclick", function () {
+deleteBtn.addEventListener("dblclick", function () {
   remove(referenceInDB);
   ulEl.innerHTML = "";
 });
 
-addButtonEl.addEventListener("click", function () {
-  push(referenceInDB, choreInputEl.value);
-  choreInputEl.value = "";
+inputBtn.addEventListener("click", function () {
+  push(referenceInDB, inputEl.value);
+  inputEl.value = "";
 });
