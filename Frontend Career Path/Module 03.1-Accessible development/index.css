@@ -90,10 +90,8 @@ body, .contact-input, .address-input, .radio-container p {
 .city-select:focus-visible {
     outline: 3px solid #bbd5ff;
 }
-
-/* 
-Challenge:
-1. Add an id attribute to each input field. (You are going to need it, *hint hint*)
-2. Add labels for each input field in the form. Look up how to associate a label with an input field so that when clicking the label, the input field gets focused.
-3. Change the placeholder names to be exemplary user inputs, i.e. "Obama" for a surname field.
-*/
+fieldset {
+  border: 2px solid #333;
+  border-radius: 40px;
+  padding: 10px 10px 10px 20px;
+}
