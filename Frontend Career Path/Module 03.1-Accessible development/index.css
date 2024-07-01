@@ -1,110 +1,94 @@
 html, body {
     margin: 0;
     padding: 0;
-}
-body, .contact-input, .address-input, .radio-container p {
     font-family: 'Poppins', sans-serif;
 }
-.contact-page {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 100vh;
+main {
+    width: 900px;
+    margin: 0 auto 50px;
+    line-height: 1.5;
+    color: #333333;
 }
-.contact-form-section {
-    display: flex;
-    width: 800px;
-    padding: 30px;
-    margin: 0 auto;
+strong {
+    color: #0907a4;
 }
-.contact-image {
+a {
+    color: #0907a4;
+    text-decoration-color: #d172cb;
+}
+
+/* Hero Section */
+.hero-section {
+    text-align: center;
+    position: relative;
+    height: 100vh;
+}
+.hero-heading {
+    font-size: 96px;
+    color: #0907a4;
+}
+.hero-text {
+    font-size: 20px;
+    color: #333333;
+    position: absolute;
+    width: 260px;
+    right: 0;
+    top: 260px;
+}
+.hero-image {
     width: 400px;
-    object-fit: contain;
-    margin-left: 60px;
+    z-index: 10;
+    position: absolute;
+    left: 250px;
+    top: -50px;
 }
-.contact-form-heading {
-    font-size: 3rem;
-    margin: 0;
-}
-.contact-form-intro {
-    font-size: 1.25rem;
-    margin-bottom: 20px;
-}
-.contact-input {
-    display: block;
-    width: 300px;
-    margin: 5px auto 15px;
-    border-radius: 20px;
-    padding: 8px 20px;
-    font-size: 1rem;
-    border: 2px solid #333333;
-}
-.contact-textarea {
-    max-width: 300px;
-    padding: 16px 20px;
-    border: 2px solid #333333;
-}
-.contact-input::-webkit-input-placeholder, .address-input::-webkit-input-placeholder {
-    color: #555555;
-}
-.contact-submit-button {
-    border: 2px solid #333333;
-    padding: 8px 20px;
-    border-radius: 40px;
-    margin: 10px auto 0;
-    min-width: 120px;
-}
-.contact-submit-button:hover {
-    background-color: #dddddd;
-    cursor: pointer;
-}
-.address {
+
+/* Main Content */
+.astronaut-section, .chair-section, .cubes-section {
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
-.address-input {
-    width: 110px;
-    margin: 5px auto 10px;
-    border-radius: 20px;
-    padding: 8px 20px;
-    font-size: 1rem;
+.astronaut-section p, .chair-section p, .cubes-section p {
+    width: 340px;
+}
+.astronaut-section p, .cubes-section p {
+    text-align: right;
+}
+.chair-section {
+    flex-direction: row-reverse;
+}
+.image {
+    width: 400px;
+    padding: 40px;
+}
+
+/* Card styling */
+.card {
+    position: relative;
     border: 2px solid #333333;
+    margin-bottom: 40px;
+    border-radius: 40px 0 40px 0;
+    outline-offset: 2px;
+		transition: 0.2s;
 }
-.postcode {
-    margin-left: 40px;
+.card a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
 }
-.contact-radio {
-    margin-right: 20px;
-    margin-bottom: 10px;
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgb(208,114,202) 0px -3px 0px inset;
 }
-.radio-container p {
-    margin-bottom: 10px;
-}
-.city-select {
-    width: 150px;
-    margin: 5px auto 10px;
-    border-radius: 20px;
-    padding: 8px 10px;
-    font-size: 1rem;
-    border: 2px solid #333333;
-}
-.city-select:focus-visible {
-    outline: 3px solid #bbd5ff;
-}
-.popover-message {
+.cta {
     display: block;
-    margin-top: 10px;
-    color: #e12938;
-    font-size: 0.9rem;
+    padding-top: 20px;
 }
-.contact-submit-button:disabled {
-    border-color: #aaaaaa;
+.card:focus-within {
+    outline: 2px solid blue;
 }
-.contact-submit-button:disabled:hover {
-    cursor: not-allowed;
-}
-.contact-submit-button:disabled:active {
-    transform: none;
-}
-.contact-submit-button:disabled:hover + .popover-message {
-    display: block;
-}
+
