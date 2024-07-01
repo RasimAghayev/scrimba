@@ -19,6 +19,9 @@ a {
     color: inherit;
     text-decoration: none;
 }
+ul {
+    list-style-type: none;
+}
 .icon {
     font-size: 32px;
 }
@@ -84,7 +87,7 @@ a {
 
 /* Info Section */
 .info-section {
-    margin: 250px auto;
+    margin: 250px auto 200px;
     width: 800px;
 }
 .info {
@@ -228,6 +231,8 @@ a {
 
 /* 
 Challenge:
-1. Update our code with semantic HTML using the landmark regions nav, main, section, and footer.
-2. Update our submit button to be a <button> element.
+1. Identify any connected consecutive items. Hint: There are multiple sections on our home page that should become 'lists'.
+2. Update the sections to be unordered lists.
+3. Wrap each item with a list item tag.
+4. Finally, add the necessary CSS to maintain the style of the sections.
 */
