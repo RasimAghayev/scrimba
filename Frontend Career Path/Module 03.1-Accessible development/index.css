@@ -3,11 +3,6 @@ html, body {
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-body {
-    background-image: url('images/background.jpg');
-    background-size: cover; /* Ensures the image covers the whole section */
-    background-position: center; /* Centers the image in the section */
-}
 main {
     width: 900px;
     margin: 0 auto 50px;
@@ -19,7 +14,6 @@ strong {
 }
 a {
     color: #0907a4;
-    text-decoration: none;
     text-decoration-color: #d172cb;
 }
 
@@ -68,3 +62,39 @@ a {
     width: 400px;
     padding: 40px;
 }
+
+/* Card styling */
+.card {
+    position: relative;
+    border: 2px solid #333333;
+    margin-bottom: 40px;
+    border-radius: 40px 0 40px 0;
+    outline-offset: 2px;
+		transition: 0.2s;
+}
+.card a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgb(208,114,202) 0px -3px 0px inset;
+}
+.cta {
+    display: block;
+    padding-top: 20px;
+}
+.card:focus-within {
+    outline: 2px solid blue;
+}
+
+
+/* 
+Challenge: Update our links so that they meet the following requirements:
+1. They can be identified as links by more than just color.
+2. The link text is not ambiguous, as in the links make sense out of context.
+*/
