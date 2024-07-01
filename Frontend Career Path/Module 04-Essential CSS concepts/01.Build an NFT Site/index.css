@@ -1,57 +1,65 @@
 body{
-    font-size: 16px;
-    color: #2b283a;
-    font-family: 'Roboto', sans-serif;
     margin: 0;
-}
-
-header{
-    background-color: #5f29a3;
-    padding: 45px 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1{
-    color: whitesmoke;
-    font-size: 36px;
     margin: 0;
+    color: whitesmoke;
+    font-size: 40px;
 }
 
-h2{
+h2{ 
     margin-top: 0;
+    line-height: 17px;
+    color: whitesmoke;
+    letter-spacing: 1.1px;
 }
 
-h3{
-    color: #d0aaff;
-    font-size: 20px;
-    margin:0;
+ul{
+    color: whitesmoke;
 }
 
-/* 
+header{
+    padding: 40px 0;
+    background-color: midnightblue;
+}
+
+/*
 Challenge:
-1. Set the color of the link in the paragraph.
-2. Make the link color change on hover and 
-   active states.
-3. Search online to find out how you can give 
-   the underline a dotted appearance. 
+1. Set up a container selector.
+2. Give it a width of 600px.
+3. Align it centrally. 
 */
 
-a{
-    color: #ef5839;
-    text-decoration: underline dotted;
-}
-
-a:hover{
-    color: #d4b44c;
-}
-
-a:active{
-    color: #d4b44c;
+.container{
+    width: 600px;
+    margin: 0 auto;
 }
 
 section{
-    padding: 45px 0;
+    background-color: #dd6e42;
+    background-color: darkorchid;
+    padding: 40px 0;
 }
 
-.main-image{
-    width:100%;
+img{
+    width: 200px;
+    border-top: 3px solid black;
+    border-radius: 4.6px;
+    align-self: center;
+    box-shadow: 1px 1px 5px #333;
+}
+
+.tip-card{
+    border: 2px solid whitesmoke;
+    display: flex;
+    gap: 20px;
+    padding: 25px;
+    border-radius: 4.6px;
+}
+
+li{
+    line-height: 23px;
+    padding-bottom: 5px;
 }
