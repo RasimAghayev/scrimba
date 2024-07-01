@@ -34,6 +34,25 @@ ul{
     line-height: 22px;
 }
 
+/* 
+Challenge: 
+1. Look through the html and the new
+compound selectors in the CSS below and 
+figure out what colour the "key 
+requirements" list will be.
+
+⚠️ DO NOT look at the mini browser
+until you have made your guess!
+*/
+
+section .ad-container #req-list ul li {
+    color: green; /*113*/
+}
+
+body section .ad-container div .general-list li{
+    color: red; /*24*/
+}
+
 button{
     padding: 10px 19px;
     color: midnightblue;
@@ -52,21 +71,6 @@ a{
     font-size: 18px;
 }
 
-/* 
-Challenge:
-1. Create a compound selector which
-targets the anchor links inside the
-class "links-container".
-2. Set their color to dodgerblue.
-3. Set the size to 20px.
-4. Remove the underline.
-
-Stretch Goal:
-1. Put a hover state on them so
-the color changes to fuschia when
-the cursor hovers over them.
-*/
-
 .links-container a{
     color: dodgerblue;
     font-size: 20px;
@@ -76,7 +80,6 @@ the cursor hovers over them.
 .links-container a:hover{
     color: fuchsia;
 }
-
 
 
 
