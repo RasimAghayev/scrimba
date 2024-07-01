@@ -1,7 +1,10 @@
-// Clearing out the input fields on clicking the submit button
-document.querySelector(".submit-button").onclick = function() {submitForm()};
+function toggleTheme() {
+    let body = document.body;
+    let themeButton = document.getElementById('toggleTheme');
 
-const submitForm = () => {
-    document.getElementById("name").value = ""
-    document.getElementById("email").value = ""
+    body.classList.toggle('dark-mode');
+    let isDarkMode = body.classList.contains('dark-mode');
+
+    themeButton.setAttribute('aria-checked', isDarkMode);
+    themeButton.textContent = isDarkMode ? 'Dark Mode' : 'Light Mode';
 }

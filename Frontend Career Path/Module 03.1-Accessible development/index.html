@@ -1,116 +1,44 @@
 <html>
     <head>
-        <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
-        
-        <!-- Fonts & Icons -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-        
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <!-- Navigation bar -->
-        <nav class="navbar">
-            <div class="logo">
-                <span class="iconify icon" data-icon="healthicons:drone-outline"></span>
-                <p class="logo-text">Skynet Eats</p>
-            </div>
-            <ul class="nav-links">
-                <li><a class="nav-link" href="index.html">Home</a></li>
-                <li><a class="nav-link" href="#">About</a></li>
-                <li><a class="nav-link" href="#">Contact</a></li>
-                <li><a class="nav-link" href="#">Sign up</a></li>
+        <nav>
+            <a class="skip-nav-link" href="#main">Skip to main content</a>
+            <ul class="nav-items">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Haikus</a></li>
+                <li><a href="#">Rhymes</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
+            <button id="toggleTheme" onclick="toggleTheme()" role="switch" aria-checked="false">Light Mode</button>
         </nav>
-        
-        <!-- Main content -->
         <main>
-            <!-- Hero section -->
             <section class="hero-section">
-                <img class="hero-image" src="images/hero-image.jpg" alt="Food delivery drone saying 'I come with peas'." />
-                <div>
-                    <h1 class="hero-heading">Skynet <span>Eats</span></h1>
-                    <p class="hero-text">Grocery delivery straight to your... window!</p>
-                    <a class="hero-link" href="#">Order Now</a>
-                </div>
+                <svg class="blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="#FEFBD4" d="M38.4,-45.3C49.6,-36.4,58.2,-24.1,61.2,-10.3C64.2,3.4,61.5,18.7,53.2,28.6C44.9,38.4,31.1,42.9,17.4,47.9C3.8,52.9,-9.8,58.4,-21,55.4C-32.2,52.3,-41.2,40.6,-53.1,27.1C-65.1,13.7,-80.1,-1.5,-81.6,-18.1C-83.1,-34.6,-71,-52.4,-55.2,-60.5C-39.3,-68.5,-19.7,-66.7,-3,-63.2C13.6,-59.6,27.3,-54.2,38.4,-45.3Z" transform="translate(100 100)" />
+                </svg>
+                <h1>Code Poetry</h1>
             </section>
-    
-            <!-- Info section -->
-            <section class="info-section">
-                <div class="info">
-                    <h2 class="info-heading">Food Delivery Service</h2>
-                    <p>Is it a bird? Is it a plane? None of the above. It’s a drone on its way to you with your tasty groceries! If you don’t want fast food, but you want your food fast, <a href="#">check out our partnered shops here</a>.</p>
-                </div>
-                <ul class="statistics">
-                    <img class="info-image" src="images/pal9000.jpg" alt="A flying Skynet drone." />
-                    <li class="stat">
-                        <h3 class="stat-heading">Drones🤖</h3>
-                        <p class="stat-number">+4000</p>
-                    </li>
-                    <li class="stat">
-                        <h3 class="stat-heading">Customers🧑🏽</h3>
-                        <p class="stat-number">+120 000</p>
-                    </li>
-                    <li class="stat">
-                        <h3 class="stat-heading">Cat conflicts🐱</h3>
-                        <p class="stat-number">~70</p>
-                    </li>
-                </ul>
+            <section class="poem-section" id="main">
+                <svg class="blob-1" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="#DCEAE1" d="M27.9,-35.3C40.4,-29.4,57.7,-26.9,66,-17.6C74.2,-8.4,73.4,7.6,67.2,20.3C60.9,32.9,49.2,42.3,37.1,49.8C25,57.3,12.5,63.1,0.1,62.9C-12.2,62.7,-24.5,56.6,-32.1,47.6C-39.7,38.7,-42.7,26.7,-51.6,13.4C-60.5,0.1,-75.4,-14.6,-75.9,-28.3C-76.5,-42,-62.7,-54.7,-47.7,-59.8C-32.6,-64.9,-16.3,-62.3,-4.3,-56.4C7.7,-50.5,15.4,-41.2,27.9,-35.3Z" transform="translate(100 100)" />
+                </svg>
+            <p class="poem-1">Functions are red, for loops are blue, Scrimba is great, and so are you.💜</p>
+                <svg class="blob-2" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="#FEFBD4" d="M38.4,-45.3C49.6,-36.4,58.2,-24.1,61.2,-10.3C64.2,3.4,61.5,18.7,53.2,28.6C44.9,38.4,31.1,42.9,17.4,47.9C3.8,52.9,-9.8,58.4,-21,55.4C-32.2,52.3,-41.2,40.6,-53.1,27.1C-65.1,13.7,-80.1,-1.5,-81.6,-18.1C-83.1,-34.6,-71,-52.4,-55.2,-60.5C-39.3,-68.5,-19.7,-66.7,-3,-63.2C13.6,-59.6,27.3,-54.2,38.4,-45.3Z" transform="translate(100 100)" />
+                </svg>
+            <p class="poem-2">Code, code, code your app, and keep it nice and DRY. If you build up lots of debt, future you will cry!😭</p>
+                <svg class="blob-3" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="#FFECD4" d="M35.6,-39.1C50.7,-29.7,70.8,-22.9,73,-12.6C75.1,-2.3,59.3,11.4,49.3,28.1C39.2,44.7,34.9,64.2,23.9,70.2C13,76.1,-4.5,68.4,-21,61C-37.5,53.6,-52.9,46.5,-63.8,33.8C-74.7,21.2,-81.1,2.9,-77.8,-13.4C-74.5,-29.6,-61.6,-43.8,-47,-53.3C-32.4,-62.9,-16.2,-67.8,-3,-64.2C10.2,-60.7,20.4,-48.6,35.6,-39.1Z" transform="translate(100 100)" />
+                </svg>
+            <p class="poem-3">JavaScript is fun, TypeScript is too, unexpected '{' at line 32.😅</p>
             </section>
-        
-            <!-- About section -->
-            <section class="about-section">
-                <div class="about">
-                    <h2 class="about-heading">About <span>Us</span></h2>
-                    <p class="about-text">Skynet was founded by Ariana Grande, a true pioneer in the field of AI and robotics.🦾 Our purpose is to serve humans and we realized that we’re driving humans around, we’re walking their bio-pets, why not feed them too?</p>
-                    <p>If you want to know more, head over to our about page!</p>
-                    <div class="about-link">
-                        <a href="#">About Skynet</a>
-                    </div>
-                </div>
-            </section>
-        
-            <!-- Form section -->
-            <section class="form-section">
-                <form>
-                    <h2 class="form-heading">What's Next?</h2>
-                    <p class="form-intro">Want pizza through your window?🍕 Recieve a notification when the service is available.</p>
-                    <label for="name">Full name</label>
-                    <input class="input" id="name" type="text" placeholder="Ariana Regular" />
-                    <label for="email">Email</label>
-                    <input class="input" id="email" type="email" placeholder="ariana.regular@gmail.com" />
-                    <button class="submit-button" type="button" onclick="submitForm()">Notify me</button>
-                </form>
-            </section>
-            
         </main>
-        
-        <!-- Footer -->
-        <footer class="footer">
-            <ul class="social-links">
-                <li><a class="social-link" href="#">
-                    <ion-icon class="icon" name="logo-facebook"></ion-icon>
-                    <p>Facebook</p>
-                </a><li>
-                <li><a class="social-link" href="#">
-                    <ion-icon class="icon" name="logo-instagram"></ion-icon>
-                    <p>Instagram</p>
-                </a><li>
-                <li><a class="social-link" href="#">
-                    <ion-icon class="icon" name="logo-linkedin"></ion-icon>
-                    <p>LinkedIn</p>
-                </a><li>
-                <li><a class="social-link" href="#">
-                    <ion-icon class="icon" name="logo-twitter"></ion-icon>
-                    <p>Twitter</p>
-                </a><li>
-            </ul>
-        </footer>
-        
-        <script src="index.pack.js"></script>
-        <!-- The two scripts below import the icons we use in our footer -->
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="index.js"></script>
     </body>
 </html>
