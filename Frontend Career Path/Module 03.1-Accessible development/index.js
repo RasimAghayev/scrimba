@@ -1,10 +1,14 @@
-function toggleTheme() {
-    let body = document.body;
-    let themeButton = document.getElementById('toggleTheme');
-
-    body.classList.toggle('dark-mode');
-    let isDarkMode = body.classList.contains('dark-mode');
-
-    themeButton.setAttribute('aria-checked', isDarkMode);
-    themeButton.textContent = isDarkMode ? 'Dark Mode' : 'Light Mode';
+function sendMessage() {
+    // Get the button element
+    const button = document.getElementById('submitButton');
+    
+    // Replace the button with a paragraph
+    button.outerHTML = '<p id="submitMessage" class="submit-message" aria-live="polite">Message sent! ✅</p>';
+    
+    // Get the home link element and add focus to it
+    document.getElementById('homeLink').focus();
 }
+
+// Here's your challenge:
+// 1. Update the code so that pressing the submit button 'politely' announces the new revealed submit message.
+// 2. Add focus to the home link when the user submits a message by selecting the correct element and adding ".focus()" to it.

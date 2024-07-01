@@ -1,157 +1,111 @@
 html, body {
     margin: 0;
     padding: 0;
-    color: #333333;
-    line-height: 1.5;
-    font-family: 'Roboto', sans-serif;
 }
-body {
-    background-color: #cecbf3;
+body, .contact-input, .address-input, .radio-container p {
+    font-family: 'Poppins', sans-serif;
 }
-a {
-    text-decoration: none;
-    color: #333333;
-    padding: 0;
-    height: fit-content;
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
 }
-nav {
+.contact-form-section, .header {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
-    margin: 0 auto;
     width: 800px;
-}
-.nav-items {
-    list-style: none;
-    display: flex;
-    gap: 60px;
-}
-main {
     margin: 0 auto;
-    text-align: center;
-    width: 800px;
 }
-
-/* Main Content */
-.blob {
+.header {
+    padding: 30px 30px 0;   
+}
+.header a {
+    text-decoration: underline;
+    color: #000000;
+    height: fit-content;
+}
+#homeLink:focus {
+    outline: 4px solid rgba(117, 170, 255, 0.5);
+}
+.contact-form-section {
+    padding: 0 30px 0;   
+}
+.contact-image {
     width: 400px;
+    object-fit: contain;
+    margin-left: 60px;
 }
-.hero-section {
-    position: relative;
-    height: 500px;
-}
-.hero-section h1, .hero-section svg {
-    position: absolute;
-}
-.hero-section svg {
-    position: absolute;
-    left: 210px;
-    top: 60px;
-}
-.hero-section h1 {
+.contact-form-heading {
+    font-size: 3rem;
     margin: 0;
-    font-size: 40px;
-    position: absolute;
-    left: 280px;
-    top: 210px;
 }
-
-/* Poems */
-.poem-section {
-    position: relative;
+.contact-form-intro {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
 }
-.blob-1 {
-    width: 600px;
-    position: absolute;
-    right: 0;
-    top: 0;
+.contact-input {
+    display: block;
+    width: 300px;
+    margin: 5px auto 15px;
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-size: 1rem;
+    border: 2px solid #333333;
 }
-.blob-2 {
-    width: 450px;
-    position: absolute;
-    left: 0;
-    top: 350px;
+.contact-textarea {
+    max-width: 300px;
+    padding: 16px 20px;
+    border: 2px solid #333333;
 }
-.blob-3 {
-    width: 600px;
-    position: absolute;
-    right: 0;
-    top: 600px;
+.contact-input::-webkit-input-placeholder, .address-input::-webkit-input-placeholder {
+    color: #555555;
 }
-.poem-1 {
-    width: 200px;
-    font-size: 24px;
-    position: absolute;
-    right: 200px;
-    top: 200px;
+.contact-submit-button {
+    border: 2px solid #333333;
+    padding: 8px 20px;
+    border-radius: 40px;
+    margin: 10px auto 0;
+    min-width: 120px;
 }
-.poem-2 {
-    width: 200px;
-    font-size: 20px;
-    position: absolute;
-    left: 110px;
-    top: 470px;
-}
-.poem-3 {
-    width: 250px;
-    font-size: 28px;
-    position: absolute;
-    left: 340px;
-    top: 810px;
-}
-
-/* Code for Skip Navigation Link goes here */
-.skip-nav-link {
-    position: absolute;
-    left: -200px;
-    top: 80px;
-}
-.skip-nav-link:focus {
-    left: 0;
-}
-
-.auth-button {
-    display: inline-block;
-    margin-top: 8px;
-    height: fit-content;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
+.contact-submit-button:hover {
+    background-color: #dddddd;
     cursor: pointer;
-    background-color: #eee;
-    margin-right: 6px;
 }
-.auth-button:first-child {
-    padding: 13px 10px;
+.address {
+    display: flex;
 }
-
-/* Code for toggle light/dark mode goes here */
-body {
-    background-color: #cecbf3; /* Default Light Mode */
+.address-input {
+    width: 110px;
+    margin: 5px auto 10px;
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-size: 1rem;
+    border: 2px solid #333333;
 }
-.dark-mode {
-    background-color: #444; /* Dark Mode */
+.postcode {
+    margin-left: 40px;
 }
-.dark-mode nav a {
-    color: #eee;
+.contact-radio {
+    margin-right: 20px;
+    margin-bottom: 10px;
 }
-#toggleTheme {
-    margin-top: 8px;
-    height: fit-content;
-    padding: 10px;
+.radio-container p {
+    margin-bottom: 10px;
+}
+.city-select {
+    width: 150px;
+    margin: 5px auto 10px;
+    border-radius: 20px;
+    padding: 8px 10px;
+    font-size: 1rem;
+    border: 2px solid #333333;
+}
+.city-select:focus-visible {
+    outline: 3px solid #bbd5ff;
+}
+.submit-message {
+    padding: 0;
+    margin-bottom: 14px;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: #eee;
-    margin-right: 6px;
 }
-
-/*
-
-Challenge:
-Add the three ARIA attributes that do the following:
-1. Define the role of the toggle switch
-2. Make the toggle switch keyboard-focusable
-3. Communicate the state to assistive technologies in some way (on/off)
-
-*/
