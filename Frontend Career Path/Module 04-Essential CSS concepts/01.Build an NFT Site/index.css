@@ -1,46 +1,93 @@
 body{
-    font-size: 16px;
-    color: #2b283a;
-    font-family: 'Roboto', sans-serif;
     margin: 0;
+    font-family: 'Roboto';
 }
 
-header{
-    background-color: #5f29a3;
-    padding: 45px 0;
+/* typography */
+
+h1{    
+    margin: 0 20px 0 0;
+    padding: 20px;
+    border: 3px solid orange;
+    border-radius: 4.6px;
+    font-family: 'Creepster';
+    font-size: 34px;
+    letter-spacing: 2px;
+    color: orange;
 }
+
+
+/* 
+L ink (a)
+o
+V isitted
+e
+H over
+A ctive
+t
+e
+
+ */
+
+a{
+    font-size: 23px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:visited{
+    color: darkkhaki;   
+}
+
+a:hover, a:focus{
+    color: lightpink;
+    text-decoration: overline;
+}
+
+a:active{
+    color: #222;
+    font-weight: 700;
+}
+
+
 
 /* 
 Challenge:
-1. Add CSS so the text in the first section 
-   renders correctly. 
-⚠️ Watch out for the amount of white space 
-   you have between the start of the section 
-   and the h2.
-⚠️ Don't write too much code!
-*/
+1. Add an active state pseudo 
+   selector. Make it so that when a 
+   user clicks on the link, the color 
+   changes to a dark grey and the font 
+   weight increases to bold.
+ */
 
-h1{
-    color: whitesmoke;
-    font-size: 36px;
-    margin: 0;
+/* layout */
+
+header{
+    background-color: darkmagenta;
+    padding: 25px;
+    border: 4px solid orange;
 }
 
-h2{
-    margin-top: 0;
+.logo-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
 }
 
-h3{
-    color: #d0aaff;
-    font-size: 20px;
-    margin:0;
+.logo{
+    background-image: url('images/haunted-tree.png');
+    height: 145px;
+    width: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+    
+.nav-bar{
+    margin-top: 20px; 
+    text-align: center;    
 }
 
-
-section{
-    padding: 45px 0;
-}
-
-.main-image{
-    width: 100%;
+.nav-item{
+    margin: 0 10px;
 }
