@@ -9,93 +9,47 @@
         
         <link rel="stylesheet" href="index.css">
     </head>
-    <body>
-        <!-- Navigation bar -->
-        <div class="navbar">
-            <div class="logo">
-                <span class="iconify icon" data-icon="healthicons:drone-outline"></span>
-                <p class="logo-text">Skynet Eats</p>
-            </div>
-            <div class="nav-links">
-                <a class="nav-link" href="index.html">Home</a>
-                <a class="nav-link" href="#">About</a>
-                <a class="nav-link" href="#">Contact</a>
-                <a class="nav-link" href="#">Sign up</a>
-            </div>
-        </div>
-        
-        <!-- Main content -->
-        <div>
-            <!-- Hero section -->
-            <div class="hero-section">
-                <img class="hero-image" src="images/hero-image.jpg" alt="Food delivery drone saying 'I come with peas'." />
-                <div>
-                    <h1 class="hero-heading">Skynet <span>Eats</span></h1>
-                    <p class="hero-text">Grocery delivery straight to your... window!</p>
-                    <a class="hero-link" href="#">Order Now</a>
-                </div>
-            </div>
-        </div>
-    
-        <!-- Info section -->
-        <div class="info-section">
-            <div class="info">
-                <h1 class="info-heading">Food Delivery Service</h1>
-                <p>Is it a bird? Is it a plane? None of the above. It’s a drone on its way to you with your tasty groceries! If you don’t want fast food, but you want your food fast, <a href="#">check out our partnered shops here</a>.</p>
-            </div>
-            <div class="statistics">
-                <img class="info-image" src="images/pal9000.jpg" alt="A flying Skynet drone." />
-                <div class="stat">
-                    <h4 class="stat-heading">Drones🤖</h4>
-                    <p class="stat-number">+4000</p>
-                </div>
-                <div class="stat">
-                    <h4 class="stat-heading">Customers🧑🏽</h4>
-                    <p class="stat-number">+120 000</p>
-                </div>
-                <div class="stat">
-                    <h4 class="stat-heading">Cat conflicts🐱</h4>
-                    <p class="stat-number">~70</p>
-                </div>
-            </div>
-        </div>
-        
-        <!-- About section -->
-        <div class="about-section">
-            <div class="about">
-                <h2 class="about-heading">About <span>Us</span></h2>
-                <p class="about-text">Skynet was founded by Ariana Grande, a true pioneer in the field of AI and robotics.🦾 Our purpose is to serve humans and we realized that we’re driving humans around, we’re walking their bio-pets, why not feed them too?</p>
-                <p>If you want to know more, head over to our about page!</p>
-                <div class="about-link">
-                    <a href="#">About Skynet</a>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Footer -->
-        <div class="footer">
-            <div class="social-links">
-                <a class="social-link" href="#">
-                    <ion-icon class="icon" name="logo-facebook"></ion-icon>
-                    <p>Facebook</p>
-                </a>
-                <a class="social-link" href="#">
-                    <ion-icon class="icon" name="logo-instagram"></ion-icon>
-                    <p>Instagram</p>
-                </a>
-                <a class="social-link" href="#">
-                    <ion-icon class="icon" name="logo-linkedin"></ion-icon>
-                    <p>LinkedIn</p>
-                </a>
-                <a class="social-link" href="#">
-                    <ion-icon class="icon" name="logo-twitter"></ion-icon>
-                    <p>Twitter</p>
-                </a>
-            </div>
-        </div>
-        
-        <!-- The two scripts below import the icons we use in our footer -->
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <body class="contact-page">
+        <main id="main">
+            <!-- Form section -->
+            <section class="contact-form-section">
+                <form>
+                    <h2 class="contact-form-heading">Sign up</h2>
+                    <p class="contact-form-intro">Enter your contact information, and then there will be cake. 🍰</p>
+                    <label for="name">Full name</label>
+                    <input class="contact-input" id="name" type="text" placeholder="Sherlock Holmes" />
+                    <label for="address">Address</label>
+                    <input class="contact-input" id="address" type="text" placeholder="221B Baker Street" />
+                    <div class="address">
+                        <div class="city">
+                            <label for="city">City</label>
+                            <select class="city-select" id="city" type="text" placeholder="London">
+                                <option value="london">London</option>
+                                <option value="manchester">Manchester</option>
+                                <option value="leeds">Leeds</option>
+                            </select>
+                        </div>
+                        <div class="postcode">
+                            <label for="postcode">Postcode</label>
+                            <input class="address-input" id="postcode" type="text" placeholder="NW1 6XE" />
+                        </div>
+                    </div>
+                    <label for="email">Email</label>
+                    <input class="contact-input" id="email" type="text" placeholder="sherlock.holmes@gmail.com" />
+                    <div class="radio-container">
+                        <p>Do you have cats?</p>
+                        <label for="yes">Yes</label>
+                        <input class="contact-radio" id="yes" type="radio" name="cats" />
+                        <label for="no">No</label>
+                        <input class="contact-radio" id="no" type="radio" name="cats" />
+                    </div>
+                    <button class="contact-submit-button" type="button">Send message 🎉</button>
+                    
+                    <button type="button">Click Me</button>
+                    <div role="button" tabindex="0" aria-label="Click Me" onclick="customButtonClickHandler();">Click Me</div>
+                </form>
+                <img class="contact-image" src="images/drone-contact.png" alt="A woman seeing a drone approaching." />
+            </section>
+        </main>
     </body>
 </html>
