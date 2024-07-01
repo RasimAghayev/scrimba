@@ -9,4 +9,4 @@ JavaScript challenges - part 2 - 9 lessons - 25 min
 [x] 06. Rock papers scissors - 2:59
 [x] 07. EmojiFighter - 4:32
 [x] 08. Sorting fruits - 2:57
-[ ] 09. Solo Project (PRO) - Password Generator - 2:43
+[x] 09. Solo Project (PRO) - Password Generator - 2:43
