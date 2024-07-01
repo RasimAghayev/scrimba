@@ -170,7 +170,7 @@ ul {
     margin: 0;
 }
 .form-intro {
-    font-size: 1.25;
+    font-size: 1.25rem;
     margin-bottom: 20px;
 }
 .form-section {
@@ -230,10 +230,8 @@ ul {
 }
 
 /* 
-Challenge: Change all font-size properties from px to rem.
-
-Here's some helpful conversions for default settings:
-1rem = 16px.
-1.5rem = 24px.
-2rem = 32px.
+Challenge: Apply headings correctly throughout the html. Make sure of the following:
+1. There's one h1 heading. No more, no less.
+2. Heading levels are not skipped.
+3. Headings always introduce new content sections. A heading for some content should never be a <p> or a <div>.
 */
