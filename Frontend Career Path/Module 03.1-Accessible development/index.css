@@ -23,7 +23,7 @@ ul {
     list-style-type: none;
 }
 .icon {
-    font-size: 32px;
+    font-size: 2rem;
 }
 
 /* Navbar */
@@ -44,7 +44,7 @@ ul {
 .nav-link {
     margin: 5px;
     padding: 10px;
-    font-size: 16px;
+    font-size: 1rem;
 }
 .nav-links {
     display: flex;
@@ -57,7 +57,7 @@ ul {
     margin: 120px auto 200px;
 }
 .hero-heading {
-    font-size: 80px;
+    font-size: 5rem;
     font-weight: 700;
     margin: 0;
 }
@@ -67,7 +67,7 @@ ul {
     line-height: 1;
 }
 .hero-text {
-    font-size: 20px;
+    font-size: 1.25rem;
     max-width: 300px;
     margin-bottom: 30px;
 }
@@ -94,7 +94,7 @@ ul {
     margin-left: 200px;
 }
 .info-heading {
-    font-size: 48px;
+    font-size: 3rem;
     margin: 0;
 }
 .info a {
@@ -119,12 +119,12 @@ ul {
 }
 .stat-heading {
     color: #cccccc;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
     margin-bottom: 0;
 }
 .stat-number {
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 500;
     margin-top: 0;
     margin-bottom: 20px;
@@ -149,7 +149,7 @@ ul {
 }
 .about-heading {
     margin: 0;
-    font-size: 48px;
+    font-size: 3rem;
 }
 .about span {
     color: #007000;
@@ -166,11 +166,11 @@ ul {
 
 /* Sign Up Form */
 .form-heading {
-    font-size: 48px;
+    font-size: 3rem;
     margin: 0;
 }
 .form-intro {
-    font-size: 20px;
+    font-size: 1.25;
     margin-bottom: 20px;
 }
 .form-section {
@@ -219,7 +219,7 @@ ul {
 }
 .social-links p {
     display: inline;
-    font-size: 16px;
+    font-size: 1rem;
 }
 .social-links ion-icon {
     padding-right: 10px;
@@ -230,9 +230,10 @@ ul {
 }
 
 /* 
-Challenge:
-1. Identify any connected consecutive items. Hint: There are multiple sections on our home page that should become 'lists'.
-2. Update the sections to be unordered lists.
-3. Wrap each item with a list item tag.
-4. Finally, add the necessary CSS to maintain the style of the sections.
+Challenge: Change all font-size properties from px to rem.
+
+Here's some helpful conversions for default settings:
+1rem = 16px.
+1.5rem = 24px.
+2rem = 32px.
 */
