@@ -1,85 +1,86 @@
 body{
+    font-size: 16px;
+    color: #2b283a;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
-    color: #333;
-    font-family: 'Roboto';
 }
 
-section, .ad-container{
-    padding: 20px;
+/* typography */
+
+h1, h3{
+    margin: 0;
 }
 
-.ad-container{
-    border: 3px solid midnightblue;
-    border-radius: 4px;
-}
-
-.links-container{
-    padding: 20px;
-}
-
-h2, h4{
-    color: midnightblue;
+h1{
+    color: whitesmoke;
+    font-size: 36px;
 }
 
 h2{
-    margin: 0;
+    margin-top: 0;
 }
 
-h4{
-    margin-bottom:0px
-}
-
-ul{
-    margin-top: 10px;
-    line-height: 22px;
+h3{
+    color: #d0aaff;
+    font-size: 20px;
 }
 
 /* 
-Challenge: 
-1. Look through the html and the new
-compound selectors in the CSS below and 
-figure out what colour the "key 
-requirements" list will be.
-
-⚠️ DO NOT look at the mini browser
-until you have made your guess!
+Challenge:
+1. Increase the line-height of the 
+   paragraph text to 23px;
 */
 
-section .ad-container #req-list ul li {
-    color: green; /*113*/
+p{
+    line-height: 23px;
 }
 
-body section .ad-container div .general-list li{
-    color: red; /*24*/
-}
 
-button{
-    padding: 10px 19px;
-    color: midnightblue;
-    font-weight: bold;
-    background-color: skyblue;
-    border-radius: 4.6px;
-    border: 3px solid midnightblue;
-}
+/* links */
 
 a{
-    margin: 10px;
+    color: #ef5839;
+    text-decoration: underline dotted; 
 }
 
-.ad-container a{
-    color: limegreen;
-    font-size: 18px;
+a:hover, a:active{
+    color: #d4b44c;
 }
 
-.links-container a{
-    color: dodgerblue;
-    font-size: 20px;
-    text-decoration: none;
+/* layout */
+
+header, section, footer{
+    padding: 45px 0;
 }
 
-.links-container a:hover{
-    color: fuchsia;
+header, .section-two{
+    background-color: #5f29a3;
 }
 
+.section-two{
+    color: whitesmoke;
+}
 
+.container{
+    width: 620px;
+    margin: 0 auto;
+}
 
+.main-image{
+    width:100%;
+}
+
+.section-two-image-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-image{
+    width: 300px;
+    border-radius: 4.6px;
+}
+
+footer{
+    text-align: center;
+    color: #5f29a3;
+}
