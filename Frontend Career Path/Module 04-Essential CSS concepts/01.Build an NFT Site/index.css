@@ -1,6 +1,7 @@
 body{
     margin: 0;
     color: #333;
+    font-family: 'Roboto';
 }
 
 section, .ad-container{
@@ -28,25 +29,6 @@ h4{
     margin-bottom:0px
 }
 
-
-#job-desc{
-    font-size: 22px;
-    color: red;
-}
-
-
-.job-desc{
-    font-size: 20px;
-    color: green;
-}
-
-
-
-p{
-    font-size: 18px;
-    color: black;
-}
-
 ul{
     margin-top: 10px;
     line-height: 22px;
@@ -62,5 +44,39 @@ button{
 }
 
 a{
-    margin: 10px
+    margin: 10px;
 }
+
+.ad-container a{
+    color: limegreen;
+    font-size: 18px;
+}
+
+/* 
+Challenge:
+1. Create a compound selector which
+targets the anchor links inside the
+class "links-container".
+2. Set their color to dodgerblue.
+3. Set the size to 20px.
+4. Remove the underline.
+
+Stretch Goal:
+1. Put a hover state on them so
+the color changes to fuschia when
+the cursor hovers over them.
+*/
+
+.links-container a{
+    color: dodgerblue;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.links-container a:hover{
+    color: fuchsia;
+}
+
+
+
+
