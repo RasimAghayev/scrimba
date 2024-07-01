@@ -228,7 +228,6 @@ a {
 
 /* 
 Challenge:
-1. Add labels for each input field in the form.
-2. Change the placeholder names to be as accessible and helpful as possible (hint: also make sure the text color contrast is good enough).
-3. Update the button text to be less ambiguous.
+1. Update our code with semantic HTML using the landmark regions nav, main, section, and footer.
+2. Update our submit button to be a <button> element.
 */
