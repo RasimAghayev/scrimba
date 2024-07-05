@@ -78,12 +78,6 @@ button {
 }
 
 .chatbox-bg {
-/*
-Challenge:
-1. Position the chatbox in the bottom 
-   corner of the window, 6px from bottom
-   and 6px from the right. 
-*/
     position: fixed;
     bottom: 6px;
     right: 6px;
