@@ -13,6 +13,9 @@ modalCloseBtn.addEventListener("click", function () {
 
 consentForm.addEventListener("submit", function (e) {
   e.preventDefault();
+  const consentFormData = new FormData(consentForm);
+  console.log(consentFormData);
+
   modalText.innerHTML = `
     <div class="modal-inner-loading">
         <img src="images/loading.svg" class="loading">
