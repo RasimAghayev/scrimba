@@ -1,54 +1,16 @@
-const modal = document.getElementById("modal");
-const modalCloseBtn = document.getElementById("modal-close-btn");
-const consentForm = document.getElementById("consent-form");
-const modalText = document.getElementById("modal-text");
+const loginForm = document.getElementById("login-form");
 
-setTimeout(function () {
-  modal.style.display = "inline";
-}, 1500);
-
-modalCloseBtn.addEventListener("click", function () {
-  modal.style.display = "none";
-});
-
-consentForm.addEventListener("submit", function (e) {
+loginForm.addEventListener("submit", function (e) {
   e.preventDefault();
-  const consentFormData = new FormData(consentForm);
-  console.log(consentFormData);
+  const loginFormData = new FormData(loginForm);
 
-  modalText.innerHTML = `
-    <div class="modal-inner-loading">
-        <img src="images/loading.svg" class="loading">
-        <p id="upload-text">Uploading your data to the dark web...</p>
-    </div>`;
+  const name = loginFormData.get("astronautName");
+  const email = loginFormData.get("astronautEmail");
+  const password = loginFormData.get("astronautPassword");
+  console.log(name, email, password);
 
-  setTimeout(function () {
-    document.getElementById("upload-text").innerText = `
-        Making the sale...`;
-  }, 1500);
-
-  setTimeout(function () {
-    document.getElementById("modal-inner").innerHTML = `
-        <h2>Thanks you sucker! </h2>
-        <p>We just sold the rights to your eternal soul.</p>
-        <div class="idiot-gif">
-            <img src="images/pirate.gif">
-        </div>
-    `;
-  }, 3000);
-
-  /*   
+  /* 
 Challenge: 
-1. Make it so that 1.5 seconds after seeing the 
-   "Making the sale..." message, the modal is 
-   cleared of its content and the following 
-   string of HTML is displayed instead.
-   
-   `<h2>Thanks you sucker! </h2>
-    <p>We just sold the rights to your eternal soul.</p>
-    <div class="idiot-gif">
-        <img src="images/pirate.gif">
-    </div>
-    ` 
+1. Log out the email and password from loginFormData.
 */
 });
