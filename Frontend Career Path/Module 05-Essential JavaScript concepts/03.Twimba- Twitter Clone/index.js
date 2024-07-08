@@ -62,13 +62,14 @@ function getFeedHtml(){
             retweetIconClass = 'retweeted'
         }
         
+        if(tweet.replies.length > 0){
+            console.log(tweet.uuid)
+        }
+        
 /*
 Challenge:
-1. Use an if statement to set the value of 
-   'retweetIconClass' to the string 
-   'retweeted' if the tweet has been retweeted. 
-2. In the retweet icon tag, add 'retweetIconClass' 
-   to the list of classes.
+1. Use an if statement to check if a tweet has replies.
+2. If it does, log out the uuid for that tweet.
 */
           
         feedHtml += `
