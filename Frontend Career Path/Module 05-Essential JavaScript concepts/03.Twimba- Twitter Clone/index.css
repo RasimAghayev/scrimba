@@ -128,5 +128,5 @@ button{
 
 /* utility */
 .hidden{
-    /* display: none; */
+    display: none;
 }
