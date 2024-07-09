@@ -89,26 +89,49 @@ p {
    ================= */
 
 /* 
-  Challenge: Style the form inputs
-    - Give the inputs a solid 2px border using the value #d1d5db
-    - Round the corners of the input fields by 5px
-    - On focus, update an input’s border color to #8a71ec
-      and background color to #e6e8ec
+  Challenge: Style the submit button
+    - The button should have the same font-family, width
+      and border-radius of the input elements
+    - Use the .btn selector to set the custom button styles;
+      use the slide as a guide
+    - Button colors:
+      - Background: #8a71ec
+      - Background on hover: #b7a7f6
 */
 
-input {
+input,
+button {
     font-family: inherit;
-    width: 100%;
+    width: 100%; 
+    border-radius: 5px;   
+}
+
+input {
     padding: 0.5em;
     margin-bottom: 0.75em;
     border: 2px solid #d1d5db;
-    border-radius: 5px;
 }
 
 input:focus {
     outline: none;
     border-color: #8a71ec;
     background-color: #e6e8ec;
+}
+
+.btn {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding: 1em 0;
+    background-color: #8a71ec;
+    margin-top: 1em;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #b7a7f6;
 }
 
 /* =================
