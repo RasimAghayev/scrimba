@@ -35,8 +35,28 @@ p {
 }
 
 .beta-text,
+.top-text,
 .subheading {
     text-transform: uppercase;
+}
+
+/* 
+  Challenge: 
+    Adjust the visual order of .top-text and re-distribute
+    the space inside .intro: 
+      - Display .top-text above the h1 and align it to 
+        the top edge of the .intro section
+      - Evenly distribute the content inside .intro
+      - The top border of .top-text should match the width of the text
+*/
+
+.top-text {
+    font-size: 0.875rem;
+    font-weight: 900;
+    padding-top: 0.25em;
+    border-top: 5px solid;
+    order: -1;
+    margin: 0 auto;
 }
 
 .fine-print {
@@ -62,12 +82,13 @@ p {
    ================= */
 
 .intro { 
-    justify-content: center;
+    justify-content: space-between;
     min-height: 250px;
     text-align: center;
     color: #fff;
     background: #9480e4 url("images/intro-bg.png");
     background-size: cover;
+    padding-bottom: 1.5em;
 }
 
 /* ====================
