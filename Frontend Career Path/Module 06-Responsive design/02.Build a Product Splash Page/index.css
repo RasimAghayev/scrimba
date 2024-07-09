@@ -4,17 +4,55 @@ html, body {
     font-family: 'Manrope', sans-serif;
 }
 
+body {
+    margin: 1em;
+}
+
+/* =================
+    Layout
+   ================= */
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+}
+
+@media (min-width: 500px) {
+
+    /*
+Challenge:
+    1. Make our layout look like the screenshot. 
+    (📝 Try to write the least CSS possible.)  
+*/
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .technology {
+        grid-column: span 2;
+    }
+
+    .nasa {
+        grid-row: span 2;
+    }
+
+    .health {
+        grid-column: span 2;
+    }
+}
+
 /* =================
     Article Card 
    ================= */
-   
+
 a:hover, a:focus {
     filter: brightness(0.9);
 }
 
 a:focus {
     outline: 3px solid #5a5a5a;
-    box-shadow: 0 0 0 3px rgba(135,18,113,0.5); 
+    box-shadow: 0 0 0 3px rgba(135, 18, 113, 0.5);
     transition: outline 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -36,7 +74,7 @@ article {
    ================= */
 
 h1 {
-    color: #0F0F0F; 
+    color: #0F0F0F;
     letter-spacing: 0.04em;
     font-family: "Source Code Pro", sans-serif;
     margin: 0;
