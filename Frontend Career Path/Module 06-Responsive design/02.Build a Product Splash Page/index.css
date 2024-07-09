@@ -1,21 +1,16 @@
 html, body {
-    margin: 0;
     padding: 0;
     font-family: 'Manrope', sans-serif;
 }
 
 body {
     margin: 1em;
+    /* temporary */
 }
 
 /* =================
-    Layout
+    Layout 
    ================= */
-
-/*
-Challenge 1:
-    1. Assign each card a grid-area name.
-*/
 
 .technology {
     grid-area: tech;
@@ -37,13 +32,6 @@ Challenge 1:
     grid-area: heal;
 }
 
-/*
-Challenge 2:
-    1. Use grid-template-areas to define 
-       the layout at each size.
-       (Keep the existing column templates.) 
-*/
-
 main {
     display: grid;
     gap: 1em;
@@ -56,23 +44,38 @@ main {
         "heal";
 }
 
-@media (min-width: 500px) {
+/* =================
+    Medium 
+   ================= */
+
+@media(min-width: 500px) {
     main {
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
             "tech tech"
             "envi nasa"
             "phys nasa"
-            "heal heal";
+            "heal heal"
     }
 }
 
-@media (min-width: 870px) {
+/* =================
+    Large 
+   ================= */
+
+@media(min-width: 870px) {
+
+    /*
+Challenge:
+    1. Make sure the last 3 columns are a minimum 
+       of 70px each and a maximum of 1fr.
+*/
     main {
         grid-template-columns: repeat(12, 1fr);
+        grid-template-columns: repeat(9, 1fr) repeat(3, minmax(70px, 1fr));
         grid-template-areas:
             "tech tech tech tech tech tech envi envi envi nasa nasa nasa"
-            "phys phys phys heal heal heal heal heal heal nasa nasa nasa";
+            "phys phys phys heal heal heal heal heal heal nasa nasa nasa"
     }
 }
 
