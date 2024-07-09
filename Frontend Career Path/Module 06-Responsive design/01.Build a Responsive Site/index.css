@@ -6,24 +6,30 @@ body {
 
 /* ----- TYPOGRAPHY ----- */
 
-h1,
+h1, 
 h3 {
     margin: 0;
 }
 
+/*
+  Challenge:
+   - Convert the font-size values of the
+     h1, h2, h3 and .subheading class from px to em
+*/
+
 h1 {
     color: whitesmoke;
-    font-size: 36px;
+    font-size: 2.25em; /* 36/16 = 2.25 */
 }
 
 h2 {
     color: #451c7a;
-    font-size: 28px;
+    font-size: 1.75em; /* 28/16 = 1.75 */
     margin-top: 0;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 1.25em; /* 20/16 = 1.25 */
 }
 
 p {
@@ -32,7 +38,7 @@ p {
 
 .subheading {
     display: block;
-    font-size: 20px;
+    font-size: 0.56em; /* 20/36 = 0.56 */
     color: #d0aaff;
 }
 
@@ -44,10 +50,10 @@ p {
 
 a {
     color: #ef5839;
-    text-decoration: underline dotted;
+    text-decoration: underline dotted; 
 }
 
-a:hover,
+a:hover, 
 a:active {
     color: #d4b44c;
 }
@@ -67,16 +73,16 @@ a:active {
 }
 
 .btn-mid {
-    color: #5f29a3;
-    background: #f0e0ff;
+    color: #5f29a3; 
+    background: #f0e0ff; 
 }
 
 .btn-light {
-    color: #5f29a3;
+    color: #5f29a3; 
     background: whitesmoke;
 }
 
-.btn:hover,
+.btn:hover, 
 .btn:active {
     color: #2b238a;
     background-color: #f3e885;
@@ -84,13 +90,13 @@ a:active {
 
 /* ----- LAYOUT ----- */
 
-header,
-section,
+header, 
+section, 
 footer {
     padding: 46px 0;
 }
 
-header,
+header, 
 .section-two {
     background-color: #5f29a3;
 }
@@ -99,31 +105,16 @@ header,
     color: whitesmoke;
 }
 
-/*
-  Challenge:
-   1. Google "how to set the maximum width of an element"  
-   2. Apply a maximum width of 800px to .container
-*/
-
 .container {
     width: 90%;
     max-width: 800px;
-    border: 2px solid tomato;
     margin: 0 auto;
 }
-
-/*
-  Challenge:
-   1. Apply a maximum width to .main-image
-   2. Make the image slightly narrower than 
-     its container and center it on the page 
-*/
 
 .main-image {
     width: 100%;
     display: block;
     max-width: 640px;
-    min-width: 300px;
     margin: 0 auto 32px;
 }
 
