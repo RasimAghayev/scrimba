@@ -40,16 +40,6 @@ p {
     text-transform: uppercase;
 }
 
-/* 
-  Challenge: 
-    Adjust the visual order of .top-text and re-distribute
-    the space inside .intro: 
-      - Display .top-text above the h1 and align it to 
-        the top edge of the .intro section
-      - Evenly distribute the content inside .intro
-      - The top border of .top-text should match the width of the text
-*/
-
 .top-text {
     font-size: 0.875rem;
     font-weight: 900;
@@ -103,6 +93,11 @@ p {
 .img-main {
     width: 120px;
     border-radius: 50%;
+}
+
+.main-content p,
+form {
+    max-width: 450px;
 }
 
 /* =================
