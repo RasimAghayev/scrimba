@@ -13,12 +13,24 @@ h3 {
 
 h1 {
     color: whitesmoke;
-    font-size: 2.25rem;
+    font-size: 1.75rem;
 }
+
+/*
+  Challenge: Responsive text
+    - h2:
+        - Initial size: rem value equal to 22px
+        - At 768px: increase to 1.75rem
+    - .subheading:
+        - Initial size: suitable for smaller screens
+        - At 768px: increase to 1.25rem  
+    - Paragraphs:
+        - At 768px: increase to rem value equal to 18px
+*/
 
 h2 {
     color: #451c7a;
-    font-size: 1.75rem;
+    font-size: 1.375rem; /* update initial font-size */
     margin-top: 0;
 }
 
@@ -32,7 +44,7 @@ p {
 
 .subheading {
     display: block;
-    font-size: 1.25rem;
+    font-size: 1rem; /* update initial font-size */
     color: #d0aaff;
 }
 
@@ -54,11 +66,11 @@ a:active {
 
 .btn {
     font-size: 1.125rem;
+    text-align: center;
     font-weight: 500;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     padding: 0.5em 1em;
-    margin-right: 0.5em;
     margin-bottom: 1em;
     border-radius: 4.6px;
 }
@@ -86,19 +98,10 @@ a:active {
 
 /* ----- LAYOUT ----- */
 
-/*
-  Challenge:
-    1. Create a new media query that targets a browser width of 768px or wider. 
-    2. Within the media query, select the header, section, and footer elements
-       and apply a top and bottom padding of 2.875em.
-    3. Adjust the initial padding for the header, section and footer elements.
-       Set a top and bottom padding value in em equal to 20px.
-*/
-
 header, 
 section, 
 footer {
-    padding: 1.25em 0; /* 20/16 = 1.25 */
+    padding: 1.25em 0;
 }
 
 header, 
@@ -152,5 +155,26 @@ footer {
     section,
     footer {
         padding: 2.875em 0;        
+    }
+    
+    .btn {
+        display: inline-block;
+        margin-right: 0.5em;
+    }
+    
+    h1 {
+        font-size: 2.25rem;
+    }
+    
+    h2 {
+        font-size: 1.75rem;
+    }
+    
+    .subheading {
+        font-size: 1.25rem;
+    }
+    
+    p {
+        font-size: 1.125rem;
     }
 }
