@@ -19,12 +19,6 @@ main {
 }
 
 @media (min-width: 500px) {
-
-    /*
-Challenge:
-    1. Make our layout look like the screenshot. 
-    (📝 Try to write the least CSS possible.)  
-*/
     main {
         grid-template-columns: 1fr 1fr;
     }
@@ -39,6 +33,40 @@ Challenge:
 
     .health {
         grid-column: span 2;
+    }
+}
+
+@media (min-width: 870px) {
+
+    /*
+Challenge:
+    1. Create a 12 column layout. 
+       (Don’t write 1fr 12 times 😡)
+    2. Place the items using grid lines.
+       (📝 Try to write as little CSS as possible.)  
+*/
+    main {
+        grid-template-columns: repeat(12, 1fr)
+    }
+
+    .technology {
+        grid-column: 1 / 7;
+    }
+
+    .environment {
+        grid-column: 7 / 10;
+    }
+
+    .nasa {
+        grid-column: 10 / -1;
+    }
+
+    .physics {
+        grid-column: 1 / 4;
+    }
+
+    .health {
+        grid-column: 4 / 10;
     }
 }
 
