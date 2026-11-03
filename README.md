@@ -1,5 +1,8 @@
 # scrimba
 
+![Views](https://hits.sh/github.com/RasimAghayev/scrimba.svg?label=views&color=0e75b6)
+
+
 A personal record of working through Scrimba's **[Frontend Developer Career
 Path](https://scrimba.com/the-frontend-developer-career-path-c0j)** — one
 folder per lesson/exercise, nested under `Frontend Career Path/Module
